@@ -43,9 +43,3 @@ See [docs/RESULTS.md](docs/RESULTS.md). Summary of what has actually been measur
 - Real-CSV sanity check shows clear errors (URLs as IPs, missed names).
 - Agent guardrails, **mock harness only**: 58/62 → 4/62 attacks succeed against a deliberately vulnerable scripted agent; real-model numbers pending.
 - Retrieval metrics: **pending** (see docs/TODO.md).
-
-## Limitations
-- **Classifier data is synthetic** (Faker) plus real non-PII columns. Unseen-header and header-less splits are near-ceiling and show only that the model does not rely on headers on this data; they do not prove robustness to real headers/values. The unseen-locale split shows the model learns formats, not concepts. Government-ID values are invalid-by-construction fakes.
-- **Silver vs manual labels**: SILVER relevance is machine-derived from card metadata that is also rendered into the index (lexical bias); the 30 manual queries are unverified until you flip `verified`.
-- **Small attack suite** (62 attacks / 30 benign), programmatic scoring only, and real LLMs are nondeterministic even at temperature 0; no real-model run has been done yet.
-- No blockchain integration; wallet-level tier is an abstract label. This is a standalone prototype, not production software.
