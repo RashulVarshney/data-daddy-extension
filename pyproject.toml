@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datadaddy-ai"
+version = "0.1.0"
+description = "AI layer for a privacy-first data marketplace: sensitivity classifier, hybrid RAG search, guarded buyer agent."
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "numpy", "pandas", "scikit-learn", "lightgbm", "scipy", "joblib", "faker",
+  "jsonschema", "pydantic>=2", "fastapi", "uvicorn", "python-multipart", "httpx",
+  "rank-bm25", "huggingface_hub", "anthropic",
+]
+
+[project.optional-dependencies]
+dense = ["sentence-transformers", "faiss-cpu"]
+dev = ["pytest", "ruff"]
+baselines = ["presidio-analyzer"]
+
+[project.scripts]
+scan_csv = "datadaddy_ai.classifier.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+src = ["src", "tests", "eval", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "B008"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["slow: needs downloads or heavy models"]
