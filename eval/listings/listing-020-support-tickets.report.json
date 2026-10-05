@@ -1,0 +1,82 @@
+{
+ "listing_id": "listing-020-support-tickets",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "ticket_id",
+   "predicted_class": "NONE",
+   "confidence": 0.9857,
+   "null_rate": 0.03,
+   "n_unique": 291,
+   "dtype": "text"
+  },
+  {
+   "name": "requester_email",
+   "predicted_class": "EMAIL",
+   "confidence": 0.9999,
+   "null_rate": 0.04,
+   "n_unique": 288,
+   "dtype": "text"
+  },
+  {
+   "name": "source_ip",
+   "predicted_class": "IP_ADDRESS",
+   "confidence": 1.0,
+   "null_rate": 0.03,
+   "n_unique": 291,
+   "dtype": "text"
+  },
+  {
+   "name": "category",
+   "predicted_class": "NONE",
+   "confidence": 0.9996,
+   "null_rate": 0.03,
+   "n_unique": 3,
+   "dtype": "text"
+  },
+  {
+   "name": "resolution_hours",
+   "predicted_class": "NONE",
+   "confidence": 0.9999,
+   "null_rate": 0.03,
+   "n_unique": 288,
+   "dtype": "numeric",
+   "min": 0.82,
+   "max": 119.65,
+   "mean": 61.113
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8613,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "EMAIL",
+  "IP_ADDRESS"
+ ],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.544,
+  "level": "HIGH",
+  "components": {
+   "direct": 0.544,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "EMAIL": 0.4,
+    "IP_ADDRESS": 0.24
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "HIGH",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

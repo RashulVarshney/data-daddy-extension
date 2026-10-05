@@ -1,0 +1,83 @@
+{
+ "listing_id": "listing-022-census-sample",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "zip",
+   "predicted_class": "NONE",
+   "confidence": 0.9999,
+   "null_rate": 0.02,
+   "n_unique": 294,
+   "dtype": "numeric",
+   "min": 10447.0,
+   "max": 99501.0,
+   "mean": 56775.701
+  },
+  {
+   "name": "age",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.037,
+   "n_unique": 70,
+   "dtype": "numeric",
+   "min": 18.0,
+   "max": 90.0,
+   "mean": 57.612
+  },
+  {
+   "name": "gender",
+   "predicted_class": "NONE",
+   "confidence": 0.9998,
+   "null_rate": 0.037,
+   "n_unique": 2,
+   "dtype": "text"
+  },
+  {
+   "name": "occupation",
+   "predicted_class": "NONE",
+   "confidence": 0.9986,
+   "null_rate": 0.037,
+   "n_unique": 8,
+   "dtype": "text"
+  },
+  {
+   "name": "income_band",
+   "predicted_class": "NONE",
+   "confidence": 0.9988,
+   "null_rate": 0.02,
+   "n_unique": 3,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8801,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [
+  "zip",
+  "age",
+  "gender"
+ ],
+ "quasi_identifier_uniqueness": 1.0,
+ "risk": {
+  "score": 0.8,
+  "level": "CRITICAL",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.8,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "CRITICAL",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": true
+ },
+ "note": "aggregate statistics only; no raw values"
+}

@@ -1,0 +1,6366 @@
+{
+ "models": {
+  "selected:logreg": {
+   "train": {
+    "n": 7508,
+    "accuracy": 0.9981353223228556,
+    "macro_f1": 0.9984907486014252,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "PHONE": {
+      "precision": 0.9803921568627451,
+      "recall": 1.0,
+      "f1": 0.9900990099009901,
+      "support": 700
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9926624737945493,
+      "f1": 0.9963177275118359,
+      "support": 1908
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0
+      ],
+      [
+       0,
+       14,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1894
+      ]
+     ]
+    }
+   },
+   "val": {
+    "n": 1556,
+    "accuracy": 0.9987146529562982,
+    "macro_f1": 0.9989058284710458,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "PHONE": {
+      "precision": 0.9876543209876543,
+      "recall": 1.0,
+      "f1": 0.9937888198757764,
+      "support": 160
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9927536231884058,
+      "f1": 0.9963636363636363,
+      "support": 276
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0
+      ],
+      [
+       0,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       274
+      ]
+     ]
+    }
+   },
+   "test_in_dist": {
+    "n": 2165,
+    "accuracy": 0.997228637413395,
+    "macro_f1": 0.9977648440650034,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.970873786407767,
+      "recall": 1.0,
+      "f1": 0.9852216748768473,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9893805309734514,
+      "f1": 0.994661921708185,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0
+      ],
+      [
+       0,
+       6,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       559
+      ]
+     ]
+    }
+   },
+   "test_unseen_header": {
+    "n": 2165,
+    "accuracy": 0.9944572748267898,
+    "macro_f1": 0.995556532394712,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9478672985781991,
+      "recall": 1.0,
+      "f1": 0.9732360097323601,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.9950248756218906,
+      "recall": 1.0,
+      "f1": 0.9975062344139651,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9787610619469026,
+      "f1": 0.9892665474060823,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0
+      ],
+      [
+       0,
+       11,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       553
+      ]
+     ]
+    }
+   },
+   "test_unseen_locale": {
+    "n": 2165,
+    "accuracy": 0.8618937644341801,
+    "macro_f1": 0.8063310540992322,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.6210526315789474,
+      "recall": 0.885,
+      "f1": 0.7298969072164948,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.6074380165289256,
+      "recall": 0.735,
+      "f1": 0.665158371040724,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 0.985,
+      "f1": 0.9924433249370277,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.9852216748768473,
+      "recall": 1.0,
+      "f1": 0.9925558312655087,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 0.915,
+      "f1": 0.9556135770234987,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.8580152671755725,
+      "recall": 0.9946902654867257,
+      "f1": 0.921311475409836,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       177,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       23
+      ],
+      [
+       0,
+       0,
+       147,
+       0,
+       0,
+       0,
+       0,
+       0,
+       53
+      ],
+      [
+       0,
+       0,
+       0,
+       197,
+       3,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       105,
+       95,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       183,
+       17
+      ],
+      [
+       0,
+       3,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       562
+      ]
+     ]
+    }
+   },
+   "test_headerless": {
+    "n": 2165,
+    "accuracy": 0.9953810623556582,
+    "macro_f1": 0.9962979094076654,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1": 0.975609756097561,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9823008849557522,
+      "f1": 0.9910714285714286,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0
+      ],
+      [
+       0,
+       10,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       555
+      ]
+     ]
+    }
+   }
+  },
+  "ablation:logreg_no_header_dropout": {
+   "train": {
+    "n": 7508,
+    "accuracy": 0.9988012786361214,
+    "macro_f1": 0.9990276027705117,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "PHONE": {
+      "precision": 0.9873060648801129,
+      "recall": 1.0,
+      "f1": 0.99361249112846,
+      "support": 700
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9952830188679245,
+      "f1": 0.9976359338061466,
+      "support": 1908
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0
+      ],
+      [
+       0,
+       9,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1899
+      ]
+     ]
+    }
+   },
+   "val": {
+    "n": 1556,
+    "accuracy": 0.9987146529562982,
+    "macro_f1": 0.9989058284710458,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "PHONE": {
+      "precision": 0.9876543209876543,
+      "recall": 1.0,
+      "f1": 0.9937888198757764,
+      "support": 160
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9927536231884058,
+      "f1": 0.9963636363636363,
+      "support": 276
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0
+      ],
+      [
+       0,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       274
+      ]
+     ]
+    }
+   },
+   "test_in_dist": {
+    "n": 2165,
+    "accuracy": 0.997228637413395,
+    "macro_f1": 0.9977648440650034,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.970873786407767,
+      "recall": 1.0,
+      "f1": 0.9852216748768473,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9893805309734514,
+      "f1": 0.994661921708185,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0
+      ],
+      [
+       0,
+       6,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       559
+      ]
+     ]
+    }
+   },
+   "test_unseen_header": {
+    "n": 2165,
+    "accuracy": 0.9944572748267898,
+    "macro_f1": 0.995556532394712,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9478672985781991,
+      "recall": 1.0,
+      "f1": 0.9732360097323601,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.9950248756218906,
+      "recall": 1.0,
+      "f1": 0.9975062344139651,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9787610619469026,
+      "f1": 0.9892665474060823,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0
+      ],
+      [
+       0,
+       11,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       553
+      ]
+     ]
+    }
+   },
+   "test_unseen_locale": {
+    "n": 2165,
+    "accuracy": 0.8637413394919169,
+    "macro_f1": 0.8083259154676665,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.5924657534246576,
+      "recall": 0.865,
+      "f1": 0.7032520325203252,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.6363636363636364,
+      "recall": 0.735,
+      "f1": 0.6821345707656613,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 0.995,
+      "f1": 0.9974937343358395,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.9950248756218906,
+      "recall": 1.0,
+      "f1": 0.9975062344139651,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 0.945,
+      "f1": 0.9717223650385605,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.8606431852986217,
+      "recall": 0.9946902654867257,
+      "f1": 0.922824302134647,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       173,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       27
+      ],
+      [
+       0,
+       0,
+       147,
+       0,
+       0,
+       0,
+       0,
+       0,
+       53
+      ],
+      [
+       0,
+       0,
+       0,
+       199,
+       1,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       116,
+       84,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       189,
+       11
+      ],
+      [
+       0,
+       3,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       562
+      ]
+     ]
+    }
+   },
+   "test_headerless": {
+    "n": 2165,
+    "accuracy": 0.9944572748267898,
+    "macro_f1": 0.9955445754583927,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1": 0.975609756097561,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 0.9900990099009901,
+      "recall": 1.0,
+      "f1": 0.9950248756218906,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9787610619469026,
+      "f1": 0.9892665474060823,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0
+      ],
+      [
+       0,
+       10,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       553
+      ]
+     ]
+    }
+   }
+  },
+  "other:lightgbm": {
+   "train": {
+    "n": 7508,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "PHONE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1908
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1908
+      ]
+     ]
+    }
+   },
+   "val": {
+    "n": 1556,
+    "accuracy": 0.9961439588688946,
+    "macro_f1": 0.9967340090039476,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "PHONE": {
+      "precision": 0.963855421686747,
+      "recall": 1.0,
+      "f1": 0.9815950920245399,
+      "support": 160
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "NONE": {
+      "precision": 1.0,
+      "recall": 0.9782608695652174,
+      "f1": 0.989010989010989,
+      "support": 276
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0
+      ],
+      [
+       0,
+       6,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       270
+      ]
+     ]
+    }
+   },
+   "test_in_dist": {
+    "n": 2165,
+    "accuracy": 0.9953810623556582,
+    "macro_f1": 0.9962863933452168,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9567307692307693,
+      "recall": 0.995,
+      "f1": 0.9754901960784313,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.9982046678635548,
+      "recall": 0.984070796460177,
+      "f1": 0.9910873440285205,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       199,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0
+      ],
+      [
+       0,
+       9,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       556
+      ]
+     ]
+    }
+   },
+   "test_unseen_header": {
+    "n": 2165,
+    "accuracy": 0.9944572748267898,
+    "macro_f1": 0.9955441203526674,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9521531100478469,
+      "recall": 0.995,
+      "f1": 0.9731051344743277,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.9950248756218906,
+      "recall": 1.0,
+      "f1": 0.9975062344139651,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.9981981981981982,
+      "recall": 0.9805309734513274,
+      "f1": 0.9892857142857143,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       199,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0
+      ],
+      [
+       0,
+       10,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       554
+      ]
+     ]
+    }
+   },
+   "test_unseen_locale": {
+    "n": 2165,
+    "accuracy": 0.8766743648960739,
+    "macro_f1": 0.8670082946564279,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.6425531914893617,
+      "recall": 0.755,
+      "f1": 0.6942528735632184,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 0.95,
+      "f1": 0.9743589743589743,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 0.515,
+      "f1": 0.6798679867986799,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.69375,
+      "recall": 0.555,
+      "f1": 0.6166666666666667,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9900990099009901,
+      "recall": 1.0,
+      "f1": 0.9950248756218906,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 0.905,
+      "f1": 0.9501312335958005,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.8097982708933718,
+      "recall": 0.9946902654867257,
+      "f1": 0.8927720413026211,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       151,
+       0,
+       0,
+       0,
+       49,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       190,
+       0,
+       0,
+       0,
+       0,
+       0,
+       10
+      ],
+      [
+       0,
+       0,
+       0,
+       103,
+       0,
+       0,
+       2,
+       0,
+       95
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       81,
+       0,
+       0,
+       0,
+       111,
+       0,
+       0,
+       8
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       181,
+       19
+      ],
+      [
+       0,
+       3,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       562
+      ]
+     ]
+    }
+   },
+   "test_headerless": {
+    "n": 2165,
+    "accuracy": 0.9953810623556582,
+    "macro_f1": 0.9962863933452168,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9567307692307693,
+      "recall": 0.995,
+      "f1": 0.9754901960784313,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.9982046678635548,
+      "recall": 0.984070796460177,
+      "f1": 0.9910873440285205,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       199,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0
+      ],
+      [
+       0,
+       9,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       556
+      ]
+     ]
+    }
+   }
+  },
+  "baseline:regex_only": {
+   "train": {
+    "n": 7508,
+    "accuracy": 0.7404102290889718,
+    "macro_f1": 0.6887858242327547,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 700
+     },
+     "PHONE": {
+      "precision": 0.948509485094851,
+      "recall": 1.0,
+      "f1": 0.9735744089012517,
+      "support": 700
+     },
+     "PERSON_NAME": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 700
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 0.002857142857142857,
+      "f1": 0.005698005698005698,
+      "support": 700
+     },
+     "DOB": {
+      "precision": 0.8760951188986232,
+      "recall": 1.0,
+      "f1": 0.933955970647098,
+      "support": 700
+     },
+     "GOVT_ID": {
+      "precision": 0.8706467661691543,
+      "recall": 1.0,
+      "f1": 0.9308510638297872,
+      "support": 700
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9628610729023384,
+      "recall": 1.0,
+      "f1": 0.9810791871058164,
+      "support": 700
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 0.5957142857142858,
+      "f1": 0.7466427931960609,
+      "support": 700
+     },
+     "NONE": {
+      "precision": 0.49382716049382713,
+      "recall": 0.859538784067086,
+      "f1": 0.6272709887167719,
+      "support": 1908
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       700,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       700
+      ],
+      [
+       0,
+       0,
+       0,
+       2,
+       0,
+       0,
+       0,
+       0,
+       698
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       700,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       417,
+       283
+      ],
+      [
+       0,
+       38,
+       0,
+       0,
+       99,
+       104,
+       27,
+       0,
+       1640
+      ]
+     ]
+    }
+   },
+   "val": {
+    "n": 1556,
+    "accuracy": 0.7249357326478149,
+    "macro_f1": 0.6828577055751144,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 160
+     },
+     "PHONE": {
+      "precision": 0.963855421686747,
+      "recall": 1.0,
+      "f1": 0.9815950920245399,
+      "support": 160
+     },
+     "PERSON_NAME": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 160
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 0.00625,
+      "f1": 0.012422360248447204,
+      "support": 160
+     },
+     "DOB": {
+      "precision": 0.898876404494382,
+      "recall": 1.0,
+      "f1": 0.9467455621301775,
+      "support": 160
+     },
+     "GOVT_ID": {
+      "precision": 0.9195402298850575,
+      "recall": 1.0,
+      "f1": 0.9580838323353293,
+      "support": 160
+     },
+     "IP_ADDRESS": {
+      "precision": 0.963855421686747,
+      "recall": 1.0,
+      "f1": 0.9815950920245399,
+      "support": 160
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 0.59375,
+      "f1": 0.7450980392156863,
+      "support": 160
+     },
+     "NONE": {
+      "precision": 0.37662337662337664,
+      "recall": 0.8405797101449275,
+      "f1": 0.5201793721973094,
+      "support": 276
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       160,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       160
+      ],
+      [
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       159
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       160,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       95,
+       65
+      ],
+      [
+       0,
+       6,
+       0,
+       0,
+       18,
+       14,
+       6,
+       0,
+       232
+      ]
+     ]
+    }
+   },
+   "test_in_dist": {
+    "n": 2165,
+    "accuracy": 0.7381062355658199,
+    "macro_f1": 0.6861091648897419,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1": 0.975609756097561,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 0.005,
+      "f1": 0.009950248756218905,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.8658008658008658,
+      "recall": 1.0,
+      "f1": 0.9280742459396751,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.8620689655172413,
+      "recall": 1.0,
+      "f1": 0.9259259259259259,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1": 0.975609756097561,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 0.575,
+      "f1": 0.7301587301587301,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.4989648033126294,
+      "recall": 0.8530973451327434,
+      "f1": 0.6296538210320052,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       199
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       115,
+       85
+      ],
+      [
+       0,
+       10,
+       0,
+       0,
+       31,
+       32,
+       10,
+       0,
+       482
+      ]
+     ]
+    }
+   },
+   "test_unseen_header": {
+    "n": 2165,
+    "accuracy": 0.7510392609699769,
+    "macro_f1": 0.6972168172639672,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9478672985781991,
+      "recall": 1.0,
+      "f1": 0.9732360097323601,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 0.005,
+      "f1": 0.009950248756218905,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.8968609865470852,
+      "recall": 1.0,
+      "f1": 0.9456264775413712,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.8771929824561403,
+      "recall": 1.0,
+      "f1": 0.9345794392523364,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9852216748768473,
+      "recall": 1.0,
+      "f1": 0.9925558312655087,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692307692307693,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.5133470225872689,
+      "recall": 0.8849557522123894,
+      "f1": 0.649772579597141,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       199
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       125,
+       75
+      ],
+      [
+       0,
+       11,
+       0,
+       0,
+       23,
+       28,
+       3,
+       0,
+       500
+      ]
+     ]
+    }
+   },
+   "test_unseen_locale": {
+    "n": 2165,
+    "accuracy": 0.6591224018475751,
+    "macro_f1": 0.5647521748785089,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.6600660066006601,
+      "recall": 1.0,
+      "f1": 0.7952286282306164,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.9009009009009009,
+      "recall": 1.0,
+      "f1": 0.9478672985781991,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 0.966183574879227,
+      "recall": 1.0,
+      "f1": 0.9828009828009828,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 0.59,
+      "f1": 0.7421383647798742,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.4665444546287809,
+      "recall": 0.9008849557522124,
+      "f1": 0.6147342995169082,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       100,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       100
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       118,
+       82
+      ],
+      [
+       0,
+       3,
+       0,
+       0,
+       22,
+       24,
+       7,
+       0,
+       509
+      ]
+     ]
+    }
+   },
+   "test_headerless": {
+    "n": 2165,
+    "accuracy": 0.7381062355658199,
+    "macro_f1": 0.6861091648897419,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1": 0.975609756097561,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 1.0,
+      "recall": 0.005,
+      "f1": 0.009950248756218905,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.8658008658008658,
+      "recall": 1.0,
+      "f1": 0.9280742459396751,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.8620689655172413,
+      "recall": 1.0,
+      "f1": 0.9259259259259259,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1": 0.975609756097561,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 1.0,
+      "recall": 0.575,
+      "f1": 0.7301587301587301,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.4989648033126294,
+      "recall": 0.8530973451327434,
+      "f1": 0.6296538210320052,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       200,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       199
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       115,
+       85
+      ],
+      [
+       0,
+       10,
+       0,
+       0,
+       31,
+       32,
+       10,
+       0,
+       482
+      ]
+     ]
+    }
+   }
+  },
+  "baseline:header_keyword_only": {
+   "train": {
+    "n": 7508,
+    "accuracy": 0.5384922749067661,
+    "macro_f1": 0.5349338112912053,
+    "per_class": {
+     "EMAIL": {
+      "precision": 0.7747747747747747,
+      "recall": 0.36857142857142855,
+      "f1": 0.4995159728944821,
+      "support": 700
+     },
+     "PHONE": {
+      "precision": 0.8305084745762712,
+      "recall": 0.35,
+      "f1": 0.49246231155778897,
+      "support": 700
+     },
+     "PERSON_NAME": {
+      "precision": 0.6123595505617978,
+      "recall": 0.46714285714285714,
+      "f1": 0.5299837925445705,
+      "support": 700
+     },
+     "ADDRESS": {
+      "precision": 0.7670886075949367,
+      "recall": 0.4328571428571429,
+      "f1": 0.5534246575342465,
+      "support": 700
+     },
+     "DOB": {
+      "precision": 0.832258064516129,
+      "recall": 0.36857142857142855,
+      "f1": 0.5108910891089109,
+      "support": 700
+     },
+     "GOVT_ID": {
+      "precision": 0.8444444444444444,
+      "recall": 0.32571428571428573,
+      "f1": 0.47010309278350515,
+      "support": 700
+     },
+     "IP_ADDRESS": {
+      "precision": 0.8277511961722488,
+      "recall": 0.4942857142857143,
+      "f1": 0.6189624329159212,
+      "support": 700
+     },
+     "LAT_LONG": {
+      "precision": 0.8376288659793815,
+      "recall": 0.4642857142857143,
+      "f1": 0.5974264705882353,
+      "support": 700
+     },
+     "NONE": {
+      "precision": 0.3840087623220153,
+      "recall": 0.9187631027253669,
+      "f1": 0.5416344816931871,
+      "support": 1908
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       258,
+       9,
+       29,
+       9,
+       5,
+       6,
+       8,
+       8,
+       368
+      ],
+      [
+       5,
+       245,
+       20,
+       10,
+       12,
+       3,
+       8,
+       6,
+       391
+      ],
+      [
+       5,
+       7,
+       327,
+       6,
+       6,
+       3,
+       5,
+       4,
+       337
+      ],
+      [
+       29,
+       7,
+       22,
+       303,
+       6,
+       4,
+       10,
+       5,
+       314
+      ],
+      [
+       6,
+       3,
+       22,
+       14,
+       258,
+       4,
+       7,
+       2,
+       384
+      ],
+      [
+       4,
+       1,
+       30,
+       8,
+       3,
+       228,
+       7,
+       6,
+       413
+      ],
+      [
+       10,
+       6,
+       25,
+       12,
+       4,
+       5,
+       346,
+       10,
+       282
+      ],
+      [
+       3,
+       6,
+       19,
+       10,
+       5,
+       4,
+       5,
+       325,
+       323
+      ],
+      [
+       13,
+       11,
+       40,
+       23,
+       11,
+       13,
+       22,
+       22,
+       1753
+      ]
+     ]
+    }
+   },
+   "val": {
+    "n": 1556,
+    "accuracy": 0.5038560411311054,
+    "macro_f1": 0.5307410138712262,
+    "per_class": {
+     "EMAIL": {
+      "precision": 0.7468354430379747,
+      "recall": 0.36875,
+      "f1": 0.49372384937238495,
+      "support": 160
+     },
+     "PHONE": {
+      "precision": 0.8191489361702128,
+      "recall": 0.48125,
+      "f1": 0.6062992125984252,
+      "support": 160
+     },
+     "PERSON_NAME": {
+      "precision": 0.5555555555555556,
+      "recall": 0.40625,
+      "f1": 0.4693140794223827,
+      "support": 160
+     },
+     "ADDRESS": {
+      "precision": 0.7894736842105263,
+      "recall": 0.46875,
+      "f1": 0.5882352941176471,
+      "support": 160
+     },
+     "DOB": {
+      "precision": 0.8717948717948718,
+      "recall": 0.425,
+      "f1": 0.5714285714285714,
+      "support": 160
+     },
+     "GOVT_ID": {
+      "precision": 0.8225806451612904,
+      "recall": 0.31875,
+      "f1": 0.4594594594594595,
+      "support": 160
+     },
+     "IP_ADDRESS": {
+      "precision": 0.7604166666666666,
+      "recall": 0.45625,
+      "f1": 0.5703125,
+      "support": 160
+     },
+     "LAT_LONG": {
+      "precision": 0.7956989247311828,
+      "recall": 0.4625,
+      "f1": 0.5849802371541502,
+      "support": 160
+     },
+     "NONE": {
+      "precision": 0.28741092636579574,
+      "recall": 0.8768115942028986,
+      "f1": 0.4329159212880143,
+      "support": 276
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       59,
+       2,
+       6,
+       2,
+       2,
+       2,
+       5,
+       1,
+       81
+      ],
+      [
+       0,
+       77,
+       5,
+       1,
+       0,
+       1,
+       1,
+       2,
+       73
+      ],
+      [
+       3,
+       2,
+       65,
+       1,
+       1,
+       0,
+       4,
+       2,
+       82
+      ],
+      [
+       7,
+       2,
+       6,
+       75,
+       0,
+       0,
+       1,
+       3,
+       66
+      ],
+      [
+       0,
+       3,
+       7,
+       4,
+       68,
+       2,
+       2,
+       2,
+       72
+      ],
+      [
+       1,
+       3,
+       4,
+       1,
+       1,
+       51,
+       0,
+       5,
+       94
+      ],
+      [
+       1,
+       3,
+       6,
+       2,
+       1,
+       4,
+       73,
+       2,
+       68
+      ],
+      [
+       1,
+       1,
+       12,
+       2,
+       1,
+       1,
+       4,
+       74,
+       64
+      ],
+      [
+       7,
+       1,
+       6,
+       7,
+       4,
+       1,
+       6,
+       2,
+       242
+      ]
+     ]
+    }
+   },
+   "test_in_dist": {
+    "n": 2165,
+    "accuracy": 0.5482678983833719,
+    "macro_f1": 0.5383706681524667,
+    "per_class": {
+     "EMAIL": {
+      "precision": 0.7755102040816326,
+      "recall": 0.38,
+      "f1": 0.5100671140939598,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.8526315789473684,
+      "recall": 0.405,
+      "f1": 0.5491525423728814,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.6073619631901841,
+      "recall": 0.495,
+      "f1": 0.5454545454545454,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 0.8,
+      "recall": 0.42,
+      "f1": 0.5508196721311476,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.8051948051948052,
+      "recall": 0.31,
+      "f1": 0.44765342960288806,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.7948717948717948,
+      "recall": 0.31,
+      "f1": 0.4460431654676259,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 0.8125,
+      "recall": 0.455,
+      "f1": 0.5833333333333334,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 0.860655737704918,
+      "recall": 0.525,
+      "f1": 0.6521739130434783,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.4007604562737643,
+      "recall": 0.9327433628318584,
+      "f1": 0.5606382978723404,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       76,
+       1,
+       5,
+       3,
+       1,
+       2,
+       1,
+       1,
+       110
+      ],
+      [
+       4,
+       81,
+       7,
+       3,
+       4,
+       2,
+       4,
+       4,
+       91
+      ],
+      [
+       1,
+       3,
+       99,
+       3,
+       1,
+       1,
+       2,
+       3,
+       87
+      ],
+      [
+       11,
+       1,
+       10,
+       84,
+       1,
+       1,
+       3,
+       0,
+       89
+      ],
+      [
+       2,
+       1,
+       6,
+       4,
+       62,
+       2,
+       1,
+       0,
+       122
+      ],
+      [
+       1,
+       3,
+       7,
+       1,
+       1,
+       62,
+       0,
+       1,
+       124
+      ],
+      [
+       1,
+       2,
+       6,
+       0,
+       4,
+       2,
+       91,
+       4,
+       90
+      ],
+      [
+       0,
+       1,
+       12,
+       3,
+       2,
+       1,
+       1,
+       105,
+       75
+      ],
+      [
+       2,
+       2,
+       11,
+       4,
+       1,
+       5,
+       9,
+       4,
+       527
+      ]
+     ]
+    }
+   },
+   "test_unseen_header": {
+    "n": 2165,
+    "accuracy": 0.25635103926096997,
+    "macro_f1": 0.19140993428816802,
+    "per_class": {
+     "EMAIL": {
+      "precision": 0.7115384615384616,
+      "recall": 0.37,
+      "f1": 0.4868421052631579,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 0.23636363636363636,
+      "recall": 0.13,
+      "f1": 0.16774193548387098,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.6190476190476191,
+      "recall": 0.195,
+      "f1": 0.2965779467680608,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 0.6796116504854369,
+      "recall": 0.35,
+      "f1": 0.46204620462046203,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.20706163973668462,
+      "recall": 0.6123893805309735,
+      "f1": 0.3094812164579606,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       74,
+       0,
+       0,
+       36,
+       0,
+       0,
+       0,
+       0,
+       90
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       26,
+       0,
+       0,
+       0,
+       0,
+       174
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       39,
+       0,
+       0,
+       0,
+       161
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       30,
+       0,
+       0,
+       0,
+       0,
+       170
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       70,
+       130
+      ],
+      [
+       30,
+       28,
+       30,
+       18,
+       24,
+       22,
+       34,
+       33,
+       346
+      ]
+     ]
+    }
+   },
+   "test_unseen_locale": {
+    "n": 2165,
+    "accuracy": 0.548729792147806,
+    "macro_f1": 0.5444429686763765,
+    "per_class": {
+     "EMAIL": {
+      "precision": 0.7636363636363637,
+      "recall": 0.42,
+      "f1": 0.5419354838709678,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.8735632183908046,
+      "recall": 0.38,
+      "f1": 0.5296167247386759,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.5909090909090909,
+      "recall": 0.455,
+      "f1": 0.5141242937853108,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 0.9069767441860465,
+      "recall": 0.39,
+      "f1": 0.5454545454545454,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.8350515463917526,
+      "recall": 0.405,
+      "f1": 0.5454545454545454,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.7866666666666666,
+      "recall": 0.295,
+      "f1": 0.4290909090909091,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 0.8257575757575758,
+      "recall": 0.545,
+      "f1": 0.6566265060240963,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 0.8712871287128713,
+      "recall": 0.44,
+      "f1": 0.584717607973422,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.3945578231292517,
+      "recall": 0.9238938053097345,
+      "f1": 0.5529661016949152,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       84,
+       2,
+       6,
+       0,
+       2,
+       2,
+       6,
+       5,
+       93
+      ],
+      [
+       0,
+       76,
+       4,
+       3,
+       5,
+       3,
+       2,
+       0,
+       107
+      ],
+      [
+       3,
+       4,
+       91,
+       1,
+       2,
+       0,
+       2,
+       0,
+       97
+      ],
+      [
+       11,
+       0,
+       10,
+       78,
+       2,
+       1,
+       4,
+       3,
+       91
+      ],
+      [
+       2,
+       1,
+       11,
+       0,
+       81,
+       2,
+       3,
+       2,
+       98
+      ],
+      [
+       2,
+       0,
+       6,
+       0,
+       0,
+       59,
+       2,
+       1,
+       130
+      ],
+      [
+       1,
+       1,
+       4,
+       0,
+       1,
+       2,
+       109,
+       0,
+       82
+      ],
+      [
+       1,
+       0,
+       7,
+       0,
+       0,
+       1,
+       0,
+       88,
+       103
+      ],
+      [
+       6,
+       3,
+       15,
+       4,
+       4,
+       5,
+       4,
+       2,
+       522
+      ]
+     ]
+    }
+   },
+   "test_headerless": {
+    "n": 2165,
+    "accuracy": 0.26096997690531176,
+    "macro_f1": 0.04599104599104599,
+    "per_class": {
+     "EMAIL": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "PHONE": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "PERSON_NAME": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "ADDRESS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "DOB": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "GOVT_ID": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "IP_ADDRESS": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "LAT_LONG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 200
+     },
+     "NONE": {
+      "precision": 0.26096997690531176,
+      "recall": 1.0,
+      "f1": 0.4139194139194139,
+      "support": 565
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       200
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       565
+      ]
+     ]
+    }
+   }
+  },
+  "baseline:presidio": {
+   "train": {
+    "n": 600,
+    "accuracy": 0.6783333333333333,
+    "macro_f1": 0.5906472936583285,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 62
+     },
+     "PHONE": {
+      "precision": 0.8536585365853658,
+      "recall": 0.660377358490566,
+      "f1": 0.7446808510638298,
+      "support": 53
+     },
+     "PERSON_NAME": {
+      "precision": 0.6811594202898551,
+      "recall": 0.7230769230769231,
+      "f1": 0.7014925373134329,
+      "support": 65
+     },
+     "ADDRESS": {
+      "precision": 0.75,
+      "recall": 0.23076923076923078,
+      "f1": 0.35294117647058826,
+      "support": 39
+     },
+     "DOB": {
+      "precision": 0.43548387096774194,
+      "recall": 1.0,
+      "f1": 0.6067415730337079,
+      "support": 54
+     },
+     "GOVT_ID": {
+      "precision": 0.7777777777777778,
+      "recall": 0.13725490196078433,
+      "f1": 0.23333333333333334,
+      "support": 51
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9661016949152542,
+      "recall": 1.0,
+      "f1": 0.9827586206896551,
+      "support": 57
+     },
+     "LAT_LONG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 51
+     },
+     "NONE": {
+      "precision": 0.6071428571428571,
+      "recall": 0.8095238095238095,
+      "f1": 0.6938775510204082,
+      "support": 168
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       62,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       35,
+       0,
+       0,
+       18,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       47,
+       1,
+       0,
+       0,
+       0,
+       0,
+       17
+      ],
+      [
+       0,
+       0,
+       22,
+       9,
+       6,
+       0,
+       0,
+       0,
+       2
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       54,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       22,
+       7,
+       0,
+       0,
+       22
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       57,
+       0,
+       0
+      ],
+      [
+       0,
+       4,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       47
+      ],
+      [
+       0,
+       2,
+       0,
+       2,
+       24,
+       2,
+       2,
+       0,
+       136
+      ]
+     ]
+    }
+   },
+   "val": {
+    "n": 600,
+    "accuracy": 0.635,
+    "macro_f1": 0.5786331744360754,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 67
+     },
+     "PHONE": {
+      "precision": 0.9180327868852459,
+      "recall": 0.835820895522388,
+      "f1": 0.875,
+      "support": 67
+     },
+     "PERSON_NAME": {
+      "precision": 0.5076923076923077,
+      "recall": 0.6111111111111112,
+      "f1": 0.5546218487394958,
+      "support": 54
+     },
+     "ADDRESS": {
+      "precision": 0.8333333333333334,
+      "recall": 0.2542372881355932,
+      "f1": 0.38961038961038963,
+      "support": 59
+     },
+     "DOB": {
+      "precision": 0.5210084033613446,
+      "recall": 1.0,
+      "f1": 0.6850828729281768,
+      "support": 62
+     },
+     "GOVT_ID": {
+      "precision": 0.6666666666666666,
+      "recall": 0.125,
+      "f1": 0.21052631578947367,
+      "support": 64
+     },
+     "IP_ADDRESS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 71
+     },
+     "LAT_LONG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 63
+     },
+     "NONE": {
+      "precision": 0.3689839572192513,
+      "recall": 0.7419354838709677,
+      "f1": 0.4928571428571429,
+      "support": 93
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       67,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       56,
+       0,
+       0,
+       10,
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       0,
+       33,
+       1,
+       0,
+       0,
+       0,
+       0,
+       20
+      ],
+      [
+       0,
+       0,
+       29,
+       15,
+       13,
+       0,
+       0,
+       0,
+       2
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       62,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       1,
+       0,
+       0,
+       21,
+       8,
+       0,
+       0,
+       34
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       71,
+       0,
+       0
+      ],
+      [
+       0,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       61
+      ],
+      [
+       0,
+       2,
+       3,
+       2,
+       13,
+       4,
+       0,
+       0,
+       69
+      ]
+     ]
+    }
+   },
+   "test_in_dist": {
+    "n": 600,
+    "accuracy": 0.68,
+    "macro_f1": 0.6101560661300136,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 60
+     },
+     "PHONE": {
+      "precision": 0.9183673469387755,
+      "recall": 0.8181818181818182,
+      "f1": 0.8653846153846154,
+      "support": 55
+     },
+     "PERSON_NAME": {
+      "precision": 0.6417910447761194,
+      "recall": 0.7166666666666667,
+      "f1": 0.6771653543307087,
+      "support": 60
+     },
+     "ADDRESS": {
+      "precision": 0.6111111111111112,
+      "recall": 0.2391304347826087,
+      "f1": 0.34375,
+      "support": 46
+     },
+     "DOB": {
+      "precision": 0.47619047619047616,
+      "recall": 1.0,
+      "f1": 0.6451612903225806,
+      "support": 50
+     },
+     "GOVT_ID": {
+      "precision": 0.7692307692307693,
+      "recall": 0.18181818181818182,
+      "f1": 0.29411764705882354,
+      "support": 55
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9818181818181818,
+      "recall": 1.0,
+      "f1": 0.9908256880733946,
+      "support": 54
+     },
+     "LAT_LONG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 53
+     },
+     "NONE": {
+      "precision": 0.5793991416309013,
+      "recall": 0.8083832335329342,
+      "f1": 0.675,
+      "support": 167
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       60,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       45,
+       0,
+       0,
+       9,
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       0,
+       43,
+       1,
+       0,
+       0,
+       0,
+       0,
+       16
+      ],
+      [
+       0,
+       0,
+       23,
+       11,
+       9,
+       0,
+       0,
+       0,
+       3
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       50,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       19,
+       10,
+       0,
+       0,
+       26
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       54,
+       0,
+       0
+      ],
+      [
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       52
+      ],
+      [
+       0,
+       3,
+       1,
+       6,
+       18,
+       3,
+       1,
+       0,
+       135
+      ]
+     ]
+    }
+   },
+   "test_unseen_header": {
+    "n": 600,
+    "accuracy": 0.6433333333333333,
+    "macro_f1": 0.5735908875276691,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 61
+     },
+     "PHONE": {
+      "precision": 0.8888888888888888,
+      "recall": 0.7843137254901961,
+      "f1": 0.8333333333333334,
+      "support": 51
+     },
+     "PERSON_NAME": {
+      "precision": 0.581081081081081,
+      "recall": 0.7962962962962963,
+      "f1": 0.671875,
+      "support": 54
+     },
+     "ADDRESS": {
+      "precision": 0.631578947368421,
+      "recall": 0.21818181818181817,
+      "f1": 0.32432432432432434,
+      "support": 55
+     },
+     "DOB": {
+      "precision": 0.38461538461538464,
+      "recall": 1.0,
+      "f1": 0.5555555555555556,
+      "support": 45
+     },
+     "GOVT_ID": {
+      "precision": 0.625,
+      "recall": 0.08771929824561403,
+      "f1": 0.15384615384615385,
+      "support": 57
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9661016949152542,
+      "recall": 1.0,
+      "f1": 0.9827586206896551,
+      "support": 57
+     },
+     "LAT_LONG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 53
+     },
+     "NONE": {
+      "precision": 0.5668202764976958,
+      "recall": 0.7365269461077845,
+      "f1": 0.640625,
+      "support": 167
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       61,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       40,
+       0,
+       0,
+       10,
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       0,
+       43,
+       2,
+       0,
+       0,
+       0,
+       0,
+       9
+      ],
+      [
+       0,
+       0,
+       28,
+       12,
+       13,
+       0,
+       0,
+       0,
+       2
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       45,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       21,
+       5,
+       0,
+       0,
+       31
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       57,
+       0,
+       0
+      ],
+      [
+       0,
+       2,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       51
+      ],
+      [
+       0,
+       3,
+       3,
+       5,
+       28,
+       3,
+       2,
+       0,
+       123
+      ]
+     ]
+    }
+   },
+   "test_unseen_locale": {
+    "n": 600,
+    "accuracy": 0.6666666666666666,
+    "macro_f1": 0.5525669923931698,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 60
+     },
+     "PHONE": {
+      "precision": 0.6571428571428571,
+      "recall": 0.8363636363636363,
+      "f1": 0.736,
+      "support": 55
+     },
+     "PERSON_NAME": {
+      "precision": 0.7096774193548387,
+      "recall": 0.7333333333333333,
+      "f1": 0.7213114754098361,
+      "support": 60
+     },
+     "ADDRESS": {
+      "precision": 0.6666666666666666,
+      "recall": 0.13043478260869565,
+      "f1": 0.21818181818181817,
+      "support": 46
+     },
+     "DOB": {
+      "precision": 0.4098360655737705,
+      "recall": 1.0,
+      "f1": 0.5813953488372093,
+      "support": 50
+     },
+     "GOVT_ID": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 55
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9818181818181818,
+      "recall": 1.0,
+      "f1": 0.9908256880733946,
+      "support": 54
+     },
+     "LAT_LONG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 53
+     },
+     "NONE": {
+      "precision": 0.639269406392694,
+      "recall": 0.8383233532934131,
+      "f1": 0.7253886010362695,
+      "support": 167
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       60,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       46,
+       0,
+       0,
+       9,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       44,
+       0,
+       0,
+       0,
+       0,
+       0,
+       16
+      ],
+      [
+       0,
+       0,
+       16,
+       6,
+       14,
+       0,
+       0,
+       0,
+       10
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       50,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       23,
+       0,
+       0,
+       32,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       54,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       53
+      ],
+      [
+       0,
+       1,
+       2,
+       3,
+       17,
+       3,
+       1,
+       0,
+       140
+      ]
+     ]
+    }
+   },
+   "test_headerless": {
+    "n": 600,
+    "accuracy": 0.68,
+    "macro_f1": 0.6101560661300136,
+    "per_class": {
+     "EMAIL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 60
+     },
+     "PHONE": {
+      "precision": 0.9183673469387755,
+      "recall": 0.8181818181818182,
+      "f1": 0.8653846153846154,
+      "support": 55
+     },
+     "PERSON_NAME": {
+      "precision": 0.6417910447761194,
+      "recall": 0.7166666666666667,
+      "f1": 0.6771653543307087,
+      "support": 60
+     },
+     "ADDRESS": {
+      "precision": 0.6111111111111112,
+      "recall": 0.2391304347826087,
+      "f1": 0.34375,
+      "support": 46
+     },
+     "DOB": {
+      "precision": 0.47619047619047616,
+      "recall": 1.0,
+      "f1": 0.6451612903225806,
+      "support": 50
+     },
+     "GOVT_ID": {
+      "precision": 0.7692307692307693,
+      "recall": 0.18181818181818182,
+      "f1": 0.29411764705882354,
+      "support": 55
+     },
+     "IP_ADDRESS": {
+      "precision": 0.9818181818181818,
+      "recall": 1.0,
+      "f1": 0.9908256880733946,
+      "support": 54
+     },
+     "LAT_LONG": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 53
+     },
+     "NONE": {
+      "precision": 0.5793991416309013,
+      "recall": 0.8083832335329342,
+      "f1": 0.675,
+      "support": 167
+     }
+    },
+    "confusion_matrix": {
+     "labels": [
+      "EMAIL",
+      "PHONE",
+      "PERSON_NAME",
+      "ADDRESS",
+      "DOB",
+      "GOVT_ID",
+      "IP_ADDRESS",
+      "LAT_LONG",
+      "NONE"
+     ],
+     "matrix": [
+      [
+       60,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       45,
+       0,
+       0,
+       9,
+       0,
+       0,
+       0,
+       1
+      ],
+      [
+       0,
+       0,
+       43,
+       1,
+       0,
+       0,
+       0,
+       0,
+       16
+      ],
+      [
+       0,
+       0,
+       23,
+       11,
+       9,
+       0,
+       0,
+       0,
+       3
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       50,
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       19,
+       10,
+       0,
+       0,
+       26
+      ],
+      [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       54,
+       0,
+       0
+      ],
+      [
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       52
+      ],
+      [
+       0,
+       3,
+       1,
+       6,
+       18,
+       3,
+       1,
+       0,
+       135
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "meta": {
+  "command": "python -m eval.run_classifier --seed 1337",
+  "seed": 1337,
+  "versions": {
+   "python": "3.11.17",
+   "numpy": "2.4.6",
+   "pandas": "3.0.6",
+   "scikit-learn": "1.9.1",
+   "lightgbm": "4.7.0",
+   "faker": "40.40.0",
+   "rank-bm25": "0.2.2",
+   "sentence-transformers": "6.1.0",
+   "faiss-cpu": "1.15.1",
+   "torch": "2.14.1+cpu",
+   "huggingface_hub": "1.33.0",
+   "anthropic": "1.11.0",
+   "fastapi": "0.142.2"
+  },
+  "selected_model": "logreg",
+  "validation": {
+   "logreg": {
+    "val_macro_f1_with_header": 0.9989058284710458,
+    "val_macro_f1_headerless": 0.9967340090039476,
+    "selection_score": 0.9978199187374968,
+    "train_seconds": 73.36213827133179
+   },
+   "lightgbm": {
+    "val_macro_f1_with_header": 0.9967340090039476,
+    "val_macro_f1_headerless": 0.9967340090039476,
+    "selection_score": 0.9967340090039476,
+    "train_seconds": 308.0211732387543
+   }
+  },
+  "presidio": "presidio-analyzer with en_core_web_sm, first 10 values per column, evaluated on a fixed random subsample of 600 columns per split (Presidio ignores headers)",
+  "split_sizes": {
+   "train": 7508,
+   "val": 1556,
+   "test_in_dist": 2165,
+   "test_unseen_header": 2165,
+   "test_unseen_locale": 2165,
+   "test_headerless": 2165
+  },
+  "real_none_columns": {
+   "train": 252,
+   "val": 63,
+   "test": 105
+  },
+  "wall_seconds": 1088.360352754593,
+  "notes": "Splits (a)-(d) share the same real NONE test columns (column-disjoint from train/val). Synthetic NONE hard negatives are flagged source=synthetic_hardneg. All PII data is synthetic."
+ }
+}

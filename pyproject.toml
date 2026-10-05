@@ -37,3 +37,8 @@ ignore = ["E501", "B008"]
 testpaths = ["tests"]
 addopts = "-q"
 markers = ["slow: needs downloads or heavy models"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E731"]
+"eval/*" = ["B007", "E402", "E731"]
+"scripts/*" = ["E402"]

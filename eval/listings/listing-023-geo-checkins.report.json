@@ -1,0 +1,63 @@
+{
+ "listing_id": "listing-023-geo-checkins",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "user_hash",
+   "predicted_class": "PHONE",
+   "confidence": 0.4566,
+   "null_rate": 0.037,
+   "n_unique": 289,
+   "dtype": "text"
+  },
+  {
+   "name": "coords",
+   "predicted_class": "LAT_LONG",
+   "confidence": 0.9999,
+   "null_rate": 0.023,
+   "n_unique": 293,
+   "dtype": "text"
+  },
+  {
+   "name": "timestamp",
+   "predicted_class": "NONE",
+   "confidence": 0.9009,
+   "null_rate": 0.033,
+   "n_unique": 233,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8807,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "LAT_LONG",
+  "PHONE"
+ ],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.6975,
+  "level": "HIGH",
+  "components": {
+   "direct": 0.6975,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "PHONE": 0.45,
+    "LAT_LONG": 0.45
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "HIGH",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

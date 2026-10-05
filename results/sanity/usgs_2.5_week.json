@@ -1,0 +1,246 @@
+{
+  "n_rows": 296,
+  "n_columns": 22,
+  "columns": [
+    {
+      "name": "time",
+      "predicted_class": "NONE",
+      "confidence": 0.8879,
+      "top3": {
+        "NONE": 0.8879,
+        "DOB": 0.1094,
+        "IP_ADDRESS": 0.0017
+      }
+    },
+    {
+      "name": "latitude",
+      "predicted_class": "NONE",
+      "confidence": 0.9874,
+      "top3": {
+        "NONE": 0.9874,
+        "LAT_LONG": 0.0122,
+        "IP_ADDRESS": 0.0002
+      }
+    },
+    {
+      "name": "longitude",
+      "predicted_class": "LAT_LONG",
+      "confidence": 0.8924,
+      "top3": {
+        "LAT_LONG": 0.8924,
+        "NONE": 0.1039,
+        "PHONE": 0.0013
+      }
+    },
+    {
+      "name": "depth",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "IP_ADDRESS": 0.0,
+        "EMAIL": 0.0
+      }
+    },
+    {
+      "name": "mag",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "EMAIL": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "magType",
+      "predicted_class": "NONE",
+      "confidence": 0.9989,
+      "top3": {
+        "NONE": 0.9989,
+        "PERSON_NAME": 0.0011,
+        "GOVT_ID": 0.0
+      }
+    },
+    {
+      "name": "nst",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "gap",
+      "predicted_class": "NONE",
+      "confidence": 0.9999,
+      "top3": {
+        "NONE": 0.9999,
+        "PHONE": 0.0001,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "dmin",
+      "predicted_class": "NONE",
+      "confidence": 0.9999,
+      "top3": {
+        "NONE": 0.9999,
+        "LAT_LONG": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "rms",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PERSON_NAME": 0.0,
+        "EMAIL": 0.0
+      }
+    },
+    {
+      "name": "net",
+      "predicted_class": "NONE",
+      "confidence": 0.9953,
+      "top3": {
+        "NONE": 0.9953,
+        "PERSON_NAME": 0.0047,
+        "GOVT_ID": 0.0
+      }
+    },
+    {
+      "name": "id",
+      "predicted_class": "NONE",
+      "confidence": 0.5739,
+      "top3": {
+        "NONE": 0.5739,
+        "PERSON_NAME": 0.3412,
+        "PHONE": 0.0648
+      }
+    },
+    {
+      "name": "updated",
+      "predicted_class": "NONE",
+      "confidence": 0.8611,
+      "top3": {
+        "NONE": 0.8611,
+        "DOB": 0.135,
+        "IP_ADDRESS": 0.0026
+      }
+    },
+    {
+      "name": "place",
+      "predicted_class": "ADDRESS",
+      "confidence": 0.9964,
+      "top3": {
+        "ADDRESS": 0.9964,
+        "DOB": 0.0025,
+        "NONE": 0.0005
+      }
+    },
+    {
+      "name": "type",
+      "predicted_class": "NONE",
+      "confidence": 0.9994,
+      "top3": {
+        "NONE": 0.9994,
+        "PERSON_NAME": 0.0006,
+        "PHONE": 0.0
+      }
+    },
+    {
+      "name": "horizontalError",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PERSON_NAME": 0.0,
+        "DOB": 0.0
+      }
+    },
+    {
+      "name": "depthError",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "LAT_LONG": 0.0,
+        "DOB": 0.0
+      }
+    },
+    {
+      "name": "magError",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "IP_ADDRESS": 0.0,
+        "EMAIL": 0.0
+      }
+    },
+    {
+      "name": "magNst",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "status",
+      "predicted_class": "NONE",
+      "confidence": 0.9988,
+      "top3": {
+        "NONE": 0.9988,
+        "PERSON_NAME": 0.0012,
+        "PHONE": 0.0
+      }
+    },
+    {
+      "name": "locationSource",
+      "predicted_class": "NONE",
+      "confidence": 0.9925,
+      "top3": {
+        "NONE": 0.9925,
+        "PERSON_NAME": 0.0075,
+        "PHONE": 0.0
+      }
+    },
+    {
+      "name": "magSource",
+      "predicted_class": "NONE",
+      "confidence": 0.9947,
+      "top3": {
+        "NONE": 0.9947,
+        "PERSON_NAME": 0.0053,
+        "PHONE": 0.0
+      }
+    }
+  ],
+  "quasi_identifier_columns": [],
+  "quasi_identifier_uniqueness": null,
+  "risk": {
+    "score": 0.6355,
+    "level": "HIGH",
+    "components": {
+      "direct": 0.6355,
+      "quasi_identifier": 0.0,
+      "per_class": {
+        "LAT_LONG": 0.3273,
+        "ADDRESS": 0.4582
+      }
+    }
+  },
+  "tier_policy": {
+    "risk_level": "HIGH",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": false
+  }
+}

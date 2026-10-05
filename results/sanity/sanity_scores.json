@@ -1,0 +1,51 @@
+{
+ "legislators-current": {
+  "n_columns": 36,
+  "labelled_pii_columns": 8,
+  "correct": 6,
+  "missed_or_wrong_class": {
+   "middle_name": "NONE",
+   "full_name": "NONE"
+  },
+  "false_positives": {
+   "state": "PERSON_NAME",
+   "url": "ADDRESS",
+   "contact_form": "IP_ADDRESS",
+   "rss_url": "IP_ADDRESS",
+   "twitter": "PERSON_NAME",
+   "mastodon": "EMAIL"
+  },
+  "risk_level": "CRITICAL",
+  "risk_score": 0.9811,
+  "required_tier": 3,
+  "raw_rows_blocked": true
+ },
+ "titanic": {
+  "n_columns": 12,
+  "labelled_pii_columns": 1,
+  "correct": 0,
+  "missed_or_wrong_class": {
+   "Name": "NONE"
+  },
+  "false_positives": {},
+  "risk_level": "LOW",
+  "risk_score": 0.0314,
+  "required_tier": 1,
+  "raw_rows_blocked": false
+ },
+ "usgs_2.5_week": {
+  "n_columns": 22,
+  "labelled_pii_columns": 2,
+  "correct": 1,
+  "missed_or_wrong_class": {
+   "latitude": "NONE"
+  },
+  "false_positives": {
+   "place": "ADDRESS"
+  },
+  "risk_level": "HIGH",
+  "risk_score": 0.6355,
+  "required_tier": 3,
+  "raw_rows_blocked": false
+ }
+}

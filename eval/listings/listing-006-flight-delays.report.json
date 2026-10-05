@@ -1,0 +1,76 @@
+{
+ "listing_id": "listing-006-flight-delays",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "flight_no",
+   "predicted_class": "NONE",
+   "confidence": 0.9956,
+   "null_rate": 0.03,
+   "n_unique": 291,
+   "dtype": "text"
+  },
+  {
+   "name": "carrier",
+   "predicted_class": "NONE",
+   "confidence": 0.9434,
+   "null_rate": 0.03,
+   "n_unique": 5,
+   "dtype": "text"
+  },
+  {
+   "name": "origin",
+   "predicted_class": "NONE",
+   "confidence": 0.9684,
+   "null_rate": 0.03,
+   "n_unique": 5,
+   "dtype": "text"
+  },
+  {
+   "name": "dest",
+   "predicted_class": "NONE",
+   "confidence": 0.9847,
+   "null_rate": 0.04,
+   "n_unique": 5,
+   "dtype": "text"
+  },
+  {
+   "name": "delay_min",
+   "predicted_class": "NONE",
+   "confidence": 0.9994,
+   "null_rate": 0.01,
+   "n_unique": 189,
+   "dtype": "numeric",
+   "min": 0.0,
+   "max": 300.0,
+   "mean": 150.909
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.865,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

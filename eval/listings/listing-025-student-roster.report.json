@@ -1,0 +1,78 @@
+{
+ "listing_id": "listing-025-student-roster",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "student_name",
+   "predicted_class": "PERSON_NAME",
+   "confidence": 0.9959,
+   "null_rate": 0.033,
+   "n_unique": 187,
+   "dtype": "text"
+  },
+  {
+   "name": "dob",
+   "predicted_class": "DOB",
+   "confidence": 0.9941,
+   "null_rate": 0.023,
+   "n_unique": 292,
+   "dtype": "text"
+  },
+  {
+   "name": "parent_phone",
+   "predicted_class": "PHONE",
+   "confidence": 0.9999,
+   "null_rate": 0.017,
+   "n_unique": 295,
+   "dtype": "text"
+  },
+  {
+   "name": "grade",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.037,
+   "n_unique": 12,
+   "dtype": "numeric",
+   "min": 1.0,
+   "max": 12.0,
+   "mean": 6.422
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8869,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "DOB",
+  "PERSON_NAME",
+  "PHONE"
+ ],
+ "quasi_identifier_columns": [
+  "dob"
+ ],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.809,
+  "level": "CRITICAL",
+  "components": {
+   "direct": 0.809,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "PERSON_NAME": 0.336,
+    "DOB": 0.504,
+    "PHONE": 0.42
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "CRITICAL",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": true
+ },
+ "note": "aggregate statistics only; no raw values"
+}

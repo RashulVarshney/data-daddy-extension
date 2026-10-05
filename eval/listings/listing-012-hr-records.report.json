@@ -1,0 +1,88 @@
+{
+ "listing_id": "listing-012-hr-records",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "employee_name",
+   "predicted_class": "PERSON_NAME",
+   "confidence": 0.9998,
+   "null_rate": 0.023,
+   "n_unique": 293,
+   "dtype": "text"
+  },
+  {
+   "name": "date_of_birth",
+   "predicted_class": "DOB",
+   "confidence": 1.0,
+   "null_rate": 0.017,
+   "n_unique": 294,
+   "dtype": "text"
+  },
+  {
+   "name": "home_address",
+   "predicted_class": "ADDRESS",
+   "confidence": 0.9999,
+   "null_rate": 0.047,
+   "n_unique": 286,
+   "dtype": "text"
+  },
+  {
+   "name": "tax_id",
+   "predicted_class": "GOVT_ID",
+   "confidence": 0.9959,
+   "null_rate": 0.057,
+   "n_unique": 283,
+   "dtype": "text"
+  },
+  {
+   "name": "salary",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.02,
+   "n_unique": 294,
+   "dtype": "numeric",
+   "min": 30436.0,
+   "max": 199954.0,
+   "mean": 114802.639
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8268,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "ADDRESS",
+  "DOB",
+  "GOVT_ID",
+  "PERSON_NAME"
+ ],
+ "quasi_identifier_columns": [
+  "date_of_birth"
+ ],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.9689,
+  "level": "CRITICAL",
+  "components": {
+   "direct": 0.9689,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "PERSON_NAME": 0.32,
+    "DOB": 0.48,
+    "ADDRESS": 0.56,
+    "GOVT_ID": 0.8
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "CRITICAL",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": true
+ },
+ "note": "aggregate statistics only; no raw values"
+}

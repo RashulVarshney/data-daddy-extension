@@ -1,0 +1,61 @@
+{
+ "listing_id": "listing-014-newsletter-subs",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "email",
+   "predicted_class": "EMAIL",
+   "confidence": 0.9999,
+   "null_rate": 0.037,
+   "n_unique": 289,
+   "dtype": "text"
+  },
+  {
+   "name": "signup_date",
+   "predicted_class": "NONE",
+   "confidence": 0.9326,
+   "null_rate": 0.04,
+   "n_unique": 227,
+   "dtype": "text"
+  },
+  {
+   "name": "plan",
+   "predicted_class": "NONE",
+   "confidence": 0.9984,
+   "null_rate": 0.017,
+   "n_unique": 3,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8583,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "EMAIL"
+ ],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.45,
+  "level": "MEDIUM",
+  "components": {
+   "direct": 0.45,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "EMAIL": 0.45
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "MEDIUM",
+  "required_tier": 2,
+  "tier_name": "identity proof",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

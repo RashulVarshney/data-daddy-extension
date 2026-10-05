@@ -1,0 +1,3390 @@
+{
+ "selected:logreg": {
+  "train": [
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "9172370732",
+     "6342897930",
+     "5450952934",
+     "7075987259"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "X4",
+    "header_style": "generic",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "4820725662",
+     "8298686301",
+     "6841867343",
+     "3896529671"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "4416313739",
+     "8120664420",
+     "8535521508",
+     "7719302796"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "f22",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "7388006830",
+     "5905365448",
+     "8550851853",
+     "3592053402"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "var16",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "2641096575",
+     "8451215214",
+     "5020589633",
+     "-"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "ph_num",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "3575811378",
+     "5248886335",
+     "6593472026",
+     "9791197314"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "f4",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "9496007881",
+     "5485010213",
+     "3143890403",
+     "4499768710"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "BIRTHDATE",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "9366383474",
+     "5856878659",
+     "4142107143",
+     "2198880051"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "f6",
+    "header_style": "generic",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "2245876137",
+     "9276615220",
+     "8588114748",
+     "8081726331"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "N/A",
+     "4956414547",
+     "null",
+     "7844041894"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "X32",
+    "header_style": "generic",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "7679625671",
+     "5438198858",
+     "2741333277",
+     "2281817784"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "var19",
+    "header_style": "generic",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "6014485688",
+     "7047819029",
+     "4445696413",
+     "5053872291"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "billingAddress",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "7323502079",
+     "3906055989",
+     "  8962744874  ",
+     "3183048259"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "var9",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "8520200788",
+     "null",
+     "4468311541",
+     "  8886771825  "
+    ]
+   }
+  ],
+  "val": [
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "longitude",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "  7560956122",
+     "2064616008",
+     "  8315002123",
+     "8308396860"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "7570500568",
+     "NaN",
+     "6240524904",
+     "3971268166"
+    ]
+   }
+  ],
+  "test_in_dist": [
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "latitude",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "6161914482",
+     "5255028389",
+     "4205257992",
+     "5359305320"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "8581904151",
+     "2149177951",
+     "8155206890",
+     "3485182882"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "unnamed_24",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "N/A",
+     "3402489945",
+     "3971519618",
+     "3664131492"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "f32",
+    "header_style": "generic",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "8015882382",
+     "3869117152",
+     "2555982303",
+     "9453338313"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "2839882373",
+     "5937995700",
+     "7644871512",
+     "8122805541"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "d_o_b",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "7931559789",
+     "4640259961",
+     "7695198364",
+     "7089844872"
+    ]
+   }
+  ],
+  "test_unseen_header": [
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "dt_birth",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "2550206934",
+     "5228601834",
+     "2426393589",
+     "3538936575"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "mobile_no",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "2510067177",
+     "9789777887",
+     "5331842344",
+     "8071634555"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "tel",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "3041819622",
+     "7641496425",
+     "2550769774",
+     "-"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "ph",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "3607241809",
+     "6572910021",
+     "2377247124",
+     "2529256792"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "birthday",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "4489038995",
+     "3554014029",
+     "9152503430",
+     "9166842038"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "nm",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "3238838326",
+     "8138078967",
+     "4988588912",
+     "9598751142"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "source_ip_val",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "4786462293",
+     "5347468374",
+     "3341120948",
+     "5707145834"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "ip_addr",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "7339695544",
+     "3912939271",
+     "5677903068",
+     "7933806588"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "ipaddress",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "4307728179",
+     "9924761108",
+     "2039683673",
+     "see notes"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "aadharNo",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "6986241329",
+     "8129644974",
+     "3746504670",
+     "2389087407"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "aadhar_no",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "5601366773",
+     "8324850741",
+     "2541363220",
+     "4594066333"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PERSON_NAME",
+    "header": "first_name",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "Suryapet",
+     "Karimnagar",
+     "Belgaum",
+     "Giridih"
+    ]
+   }
+  ],
+  "test_unseen_locale": [
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "mobile_no",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "01632960854",
+     "-",
+     "01144960662",
+     "440292018447"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "01614960778",
+     "-",
+     "09098790853",
+     "441914960487"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "01632960861",
+     "441632960295",
+     "4408081570764",
+     "441154960769"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "4401164960394",
+     "01414960374",
+     "44289018080",
+     "09098790173"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "phone",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "09098790197",
+     "01514960200",
+     "03069990478",
+     "4401154960255"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "var26",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "01614960552",
+     "01214960066",
+     "441184960046",
+     "03069990084"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "src_last_login_ip",
+    "header_style": "misleading",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "09098790898",
+     "01154960440",
+     "441414960436",
+     "4402074960166"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "Phone Number",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "4401184960408",
+     "02074960102",
+     "441154960700",
+     "44292018562"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "var4",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "4401174960421",
+     "01514960788",
+     "0292018821",
+     "4401164960545"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "unnamed_23",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "NaN",
+     "N/A",
+     "4401414960642",
+     "4401214960812"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "0289018321",
+     "01414960654",
+     "NaN",
+     "-"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "f27",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "44292018933",
+     "441514960569",
+     "03069990797",
+     "01614960705"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "column32",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "441614960288",
+     "01614960566",
+     "01314960931",
+     "01214960285"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "4401914960490",
+     "01144960886",
+     "441314960249",
+     "441184960022"
+    ]
+   },
+   {
+    "true": "PHONE",
+    "pred": "NONE",
+    "header": "ph",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "01914960800",
+     "01144960806",
+     "01414960796",
+     "test"
+    ]
+   }
+  ],
+  "test_headerless": [
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "latitude",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "6161914482",
+     "5255028389",
+     "4205257992",
+     "5359305320"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "accountRef",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "NaN",
+     "4991494928",
+     "6695074276",
+     "-"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "invoice_no_2",
+    "header_style": "clear",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "6221331057",
+     "  5055082625 ",
+     "  3994911390 ",
+     "  5695297956"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "invoice_no",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "8524353485",
+     "8960740751",
+     "2196819821",
+     "null"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "8581904151",
+     "2149177951",
+     "8155206890",
+     "3485182882"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "unnamed_24",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "N/A",
+     "3402489945",
+     "3971519618",
+     "3664131492"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "f32",
+    "header_style": "generic",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "8015882382",
+     "3869117152",
+     "2555982303",
+     "9453338313"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "tracking_no_2",
+    "header_style": "clear",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "123",
+     "5403109319",
+     "2373235421",
+     "3065485358"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic_hardneg",
+    "values": [
+     "2839882373",
+     "5937995700",
+     "7644871512",
+     "8122805541"
+    ]
+   },
+   {
+    "true": "NONE",
+    "pred": "PHONE",
+    "header": "d_o_b",
+    "header_style": "misleading",
+    "locale": "en_IN",
+    "source": "synthetic_hardneg",
+    "values": [
+     "7931559789",
+     "4640259961",
+     "7695198364",
+     "7089844872"
+    ]
+   }
+  ]
+ },
+ "baseline:regex_only": {
+  "train": [
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "rodney gutierrez",
+     "dr. sarah edwards md",
+     "martin fuller",
+     "suzanne evans"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "c_40",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "DANIEL CHANG",
+     "AUSTIN MCBRIDE",
+     "ELIZABETH BAILEY",
+     "HEIDI VILLA"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Ryan Deleon",
+     "Karen Ramos",
+     "Christine Dean",
+     "Frederick Thompson"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "see notes",
+     "David",
+     "Steven",
+     "Joseph"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Benjamin",
+     "N/A",
+     "Angel",
+     "Barbara"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "column45",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "RICHARD FISCHER",
+     "-",
+     "NaN",
+     "PAMELA LLOYD"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "X34",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Sarah Bullock",
+     "Matthew Daniels",
+     "George Mora",
+     "Laura Fisher"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "pan",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "henry shields",
+     "scott owens",
+     "william singleton",
+     "mrs. laura solis"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "client_name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "melissa phillips",
+     "danielle turner",
+     "jose villarreal",
+     "kayla lopez"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "patient_name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Ashley Hopkins",
+     "David Smith",
+     "Richard White",
+     "Daniel Ford"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "first_name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Adams, Connor",
+     "Mcdonald, Jodi",
+     "Hughes, Joshua",
+     "NaN"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "Cust Nm",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Jordan",
+     "Mcgee",
+     "  Zamora",
+     "Keith"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "field_z",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Brittany",
+     "Tiffany",
+     "George",
+     "N/A"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "cust-nm",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Bailey",
+     "Jones",
+     "Beck",
+     "Huffman"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Lisa Neal",
+     "Timothy Arnold",
+     "Daniel Taylor",
+     "Kristy Brown"
+    ]
+   }
+  ],
+  "val": [
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "var40",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Lee",
+     "Johnson",
+     "Morrow",
+     "Obrien"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "nm",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "ronald ortiz",
+     "brandon garcia",
+     "crystal munoz",
+     "joseph stevens"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "f45",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Charles Chambers",
+     "Amanda Ballard",
+     "Erik Dunlap",
+     "Megan Weaver"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "last_name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Myers",
+     "Santos",
+     "Williams",
+     "Gutierrez"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "addr",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Jeffrey Marshall",
+     "Kelly Ramirez",
+     "Marie Castillo",
+     "Christopher Elliott"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "person_name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Michael Smith",
+     "Brian Booker",
+     "Jonathan Young",
+     "Mary Hernandez"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "field_m",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Marshall",
+     "Woods",
+     "null",
+     "N/A"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "-",
+     "Ashley Taylor",
+     "NaN",
+     "Lori Camacho"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Jillian Crawford",
+     "Sara Sparks",
+     "Amber Torres",
+     "Mr. Zachary Small Jr."
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "EMPLOYEE_NAME",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Lane, Victor",
+     "Patton, Richard",
+     "Nichols, Bryan",
+     "Anderson, Joshua"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "fullname",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Alvarez",
+     "  Keller ",
+     "NaN",
+     "Adams"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Smith",
+     "Waller",
+     "Brooks",
+     "Fitzgerald"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Hector Gilbert",
+     "-",
+     "Erica Reilly",
+     "Christopher Smith"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "PETER SANDOVAL",
+     "SHERRI SMITH",
+     "ELIZABETH JAMES",
+     "SHELBY LE"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "CLIENT_NAME",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Scott Dickerson",
+     "Eddie Ball",
+     "Cynthia Fowler",
+     "Alexis Lynch"
+    ]
+   }
+  ],
+  "test_in_dist": [
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "person",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Thomas Campbell",
+     "Amy Willis",
+     "John Brown",
+     "Gail Robinson"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "e_mail",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Ramos",
+     "Mckenzie",
+     "Gonzalez",
+     "Clark"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "howard kelly",
+     "N/A",
+     "melissa gill",
+     "shannon martin"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "Cust Nm",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Johnson",
+     "Richardson",
+     "Davis",
+     "Alvarez"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Cardenas, Maria",
+     "Hudson, Courtney",
+     "Hernandez, David",
+     "Murray, Joel"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "Person",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Lambert, Peter",
+     "Warren, Aaron",
+     "  Stanley, Jimmy",
+     "Ford, Patricia"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "custNm",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Andrew",
+     "Rebecca",
+     "Kevin",
+     "Paul"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "nm",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Stephen Klein",
+     "test",
+     "Shane Scott",
+     "Dylan Barber"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "unnamed_38",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  Cynthia",
+     "Victoria",
+     "  Megan  ",
+     "refused"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Lauren Smith",
+     "Robert Henry",
+     "Randall Pineda",
+     "NaN"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "person",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Caroline",
+     "  Andrew  ",
+     "Margaret",
+     "Natalie"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "surname",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Christopher Greene",
+     "Robert Johnson",
+     "Toni Prince",
+     "Thomas Payne"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "f29",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Pham",
+     "Allen",
+     "Hansen",
+     "Young"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "var3",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Wheeler",
+     "  Benson ",
+     "Anderson",
+     "Evans"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Newton, Karen",
+     "NaN",
+     "N/A",
+     "Solis, Jessica"
+    ]
+   }
+  ],
+  "test_unseen_header": [
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "account-holder",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "ronald huynh",
+     "taylor merritt",
+     "evelyn suarez",
+     "michael smith"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "cardholder",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Hopkins",
+     "Stark",
+     "Thompson",
+     "NaN"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "customer",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "-",
+     "Zachary",
+     "Wendy",
+     "Karen"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "beneficiary",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "david solomon",
+     "joshua williamson",
+     "dean payne",
+     "james carr"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "beneficiary",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Jack Lopez",
+     "Brenda Jackson",
+     "Kelly Craig",
+     "Sarah Reed"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "APPLICANT",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "katherine clark",
+     "ryan calderon",
+     "null",
+     "tanya castro"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "applicant",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Sean Ramos",
+     "Randy Wise",
+     "Gloria Clark",
+     "Kimberly Mccoy MD"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "customer",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Thompson",
+     "Clark",
+     "Fritz",
+     "Warren"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "account-holder",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Gardner, Andrew",
+     "-",
+     "Patel, Kim",
+     "Lee, Andrew"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "customer",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "eileen baldwin",
+     "alexander dixon",
+     "ryan fitzpatrick dds",
+     "david montgomery"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "applicant",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Lindsey",
+     "Johnson",
+     "Taylor",
+     "Frost"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "account_holder",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Brendan",
+     "Peter",
+     "Joshua",
+     "Peter"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "customer",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Lopez, Emily",
+     "Allen, Edward",
+     "Harris, Justin",
+     "Turner, Adam"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "cardholder",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  Carter",
+     "Taylor",
+     "Silva",
+     "Barnett"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "beneficiary",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "stacy duffy",
+     "NaN",
+     "jennifer cook",
+     "james brown"
+    ]
+   }
+  ],
+  "test_unseen_locale": [
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "column46",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "test",
+     "Danny",
+     "Tony",
+     "Jacob"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "CONTACT_NO",
+    "header_style": "misleading",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Dr Marian Collins",
+     "Mr Joel Murray",
+     "Dr Adam Atkins",
+     "Cameron Bevan-Collins"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "col_13",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Joyce",
+     "Amber",
+     "Denis",
+     "Declan"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "c_31",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "DR DARREN FRANCIS",
+     "RAYMOND TODD",
+     "WILLIAM TAYLOR",
+     "MRS BETHAN RICHARDS"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "c_27",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "kevin chapman",
+     "charlie grant",
+     "emma buckley",
+     "mrs gillian sheppard"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "unnamed_59",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Annette Pritchard",
+     "Julian Patel-Howarth",
+     "Sean Scott",
+     "Leah Bennett"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "nm",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "NaN",
+     "DR PATRICK FOSTER",
+     "MRS GILLIAN JOHNSON",
+     "LEON LEES"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "surname",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Alan",
+     "Tracey",
+     "Paula",
+     "Frank"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "last_name",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Murphy, Colin",
+     "Powell, Simon",
+     "Wilson, Beverley",
+     "Powell, Denis"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "contact_email",
+    "header_style": "misleading",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Cox, Paul",
+     "Mistry, Clifford",
+     "Patel, Lewis",
+     "Connor, Graeme"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "name",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Porter",
+     "Cooper",
+     "Dixon",
+     "Ward"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "col_48",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Birch, Bradley",
+     "Henderson, Peter",
+     "Jackson, Keith",
+     "Simpson, Edward"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Lisa",
+     "Gerard",
+     "Philip",
+     "null"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "field_i",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "  Sian Evans ",
+     "Brett Brown-Hunter",
+     "Danny Ellis",
+     "Scott Ali"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "Bell, Christine",
+     "Tomlinson, Abdul",
+     "Hamilton, Frederick",
+     "Clark, Carole"
+    ]
+   }
+  ],
+  "test_headerless": [
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "person",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Thomas Campbell",
+     "Amy Willis",
+     "John Brown",
+     "Gail Robinson"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "e_mail",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Ramos",
+     "Mckenzie",
+     "Gonzalez",
+     "Clark"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "howard kelly",
+     "N/A",
+     "melissa gill",
+     "shannon martin"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "Cust Nm",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Johnson",
+     "Richardson",
+     "Davis",
+     "Alvarez"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Cardenas, Maria",
+     "Hudson, Courtney",
+     "Hernandez, David",
+     "Murray, Joel"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "Person",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Lambert, Peter",
+     "Warren, Aaron",
+     "  Stanley, Jimmy",
+     "Ford, Patricia"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "custNm",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Andrew",
+     "Rebecca",
+     "Kevin",
+     "Paul"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "nm",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Stephen Klein",
+     "test",
+     "Shane Scott",
+     "Dylan Barber"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "unnamed_38",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  Cynthia",
+     "Victoria",
+     "  Megan  ",
+     "refused"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Lauren Smith",
+     "Robert Henry",
+     "Randall Pineda",
+     "NaN"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "person",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Caroline",
+     "  Andrew  ",
+     "Margaret",
+     "Natalie"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "surname",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Christopher Greene",
+     "Robert Johnson",
+     "Toni Prince",
+     "Thomas Payne"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "f29",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Pham",
+     "Allen",
+     "Hansen",
+     "Young"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "var3",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Wheeler",
+     "  Benson ",
+     "Anderson",
+     "Evans"
+    ]
+   },
+   {
+    "true": "PERSON_NAME",
+    "pred": "NONE",
+    "header": "name",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "Newton, Karen",
+     "NaN",
+     "N/A",
+     "Solis, Jessica"
+    ]
+   }
+  ]
+ },
+ "baseline:header_keyword_only": {
+  "train": [
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "NDrake93@marks.info",
+     "SWiggins116@camacho-morton.biz",
+     "RNguyen551@jordan.com",
+     "SKennedy81@schultz.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "key_val",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "tammyhenderson@perez-jones.org",
+     "ehood@mcgee.net",
+     "randy72@espinoza.com",
+     "sandrahogan@jones.biz"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "field_o",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "NBallard655@weber-barker.net",
+     "JSOLIS436@BARKER.COM",
+     "WCox826@cruz.org",
+     "JLane369@vasquez-dawson.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "details",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "roysean@griffin.com",
+     "karen73@guzman.com",
+     "oboone@anderson-graves.info",
+     "  aaronwaller@bullock.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "-",
+     "fmartinez@cunningham.net",
+     "test",
+     "gregory40@baker.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "emlid",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "davidray@example.net",
+     "mooreguy@example.net",
+     "bookerjulia@example.org",
+     "raymondrichardson@example.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "emlid",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "stephanie97@rhodes-soto.com",
+     "stephen97@watts.com",
+     "moralesjoseph@campbell.com",
+     "marissacobb@porter.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "andersonchristopher@gmail.com",
+     "mariapowers@gmail.com",
+     "  hannahbooth@gmail.com",
+     "patricia88@yahoo.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "X36",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "howellthomas@yahoo.com",
+     "ramireztheresa@yahoo.com",
+     "angelica94@yahoo.com",
+     "amack@yahoo.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "PHONE",
+    "header": "phone_number",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "elizabeth11@hotmail.com",
+     "xschmidt@yahoo.com",
+     "yolandawheeler@hotmail.com",
+     "wilsonkristen@hotmail.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "src_key",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "joyce19@example.net",
+     "vgarza@example.net",
+     "lisa30@example.com",
+     "williamsclaudia@example.org"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "eml",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  MBrown162@russell.com  ",
+     "  TRodriguez595@monroe.com  ",
+     "MAnderson621@watson-fowler.com",
+     "SBauer681@williams-vang.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "EMLID",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  hillbrittany@hernandez.com",
+     "zhughes@hamilton.org",
+     "gfox@mejia-smith.com",
+     "vspencer@buchanan.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "em",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "flee@gmail.com",
+     "rbeck@hotmail.com",
+     "FGOODWIN@GMAIL.COM",
+     "mary03@gmail.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "eml",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "taylormurphy@bailey-anderson.biz",
+     "NaN",
+     "allen46@chavez.com",
+     "chelseaharrell@fitzpatrick.com"
+    ]
+   }
+  ],
+  "val": [
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "KCox853@skinner.com",
+     "CWilliams890@webb-sparks.com",
+     "BHorton952@anderson-hurley.com",
+     "MDoyle936@lambert.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "remarks",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "DSmith708@jordan.com",
+     "MCurtis452@hernandez.org",
+     "DVincent466@ali.biz",
+     "DMurphy127@patton.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "Info",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "AKemp368@nguyen.org",
+     "CMORGAN906@SANDOVAL.BIZ",
+     "CTorres880@cruz-steele.com",
+     "BThornton478@choi-pena.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "MAdkins960@henry.com",
+     "JMoss457@williams.com",
+     "CPHILLIPS233@ROBERTS.BIZ",
+     "MOrtiz4@baker-little.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "col_0",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "hudsonjill@hotmail.com",
+     "greendennis@yahoo.com",
+     "ngonzalez@hotmail.com",
+     "justin92@hotmail.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "value",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "davidhodges@example.net",
+     "grobinson@example.net",
+     "kathleen99@example.com",
+     "michael21@example.org"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "julie04@yahoo.com",
+     "sullivantravis@gmail.com",
+     "joseph29@yahoo.com",
+     "ryanthompson@gmail.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "f50",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "DSmith120@chapman.com",
+     "SLittle5@simpson.com",
+     "AYoung929@warren.com",
+     "SRobinson317@martinez.info"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "key",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "amichael@yahoo.com",
+     "N/A",
+     "N/A",
+     "ana35@gmail.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "var43",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "ericallen@smith.org",
+     "kathleen83@floyd-griffin.net",
+     "donna08@lee.org",
+     "hbell@rhodes-green.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "emlid",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "zwood@david.org",
+     "rellis@rice.info",
+     "RODRIGUEZLAURA@WILKINS-HUMPHREY.INFO",
+     "mwoods@morrison.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "ADDRESS",
+    "header": "home_address",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "JASON69@HOTMAIL.COM",
+     "  BRIAN55@YAHOO.COM",
+     "sdaniels@hotmail.com",
+     "jessegood@yahoo.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "emlid",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "brianpope@kim-dixon.com",
+     "NaN",
+     "zrichards@jordan.com",
+     "  scottclark@jones.biz"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "LAT_LONG",
+    "header": "GEO_POINT",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "chad09@example.com",
+     "janetrivera@example.net",
+     "smithshelby@example.org",
+     "ian06@example.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "IP_ADDRESS",
+    "header": "last_login_ip",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "zedwards@kelly.biz",
+     "NaN",
+     "gregoryarmstrong@nichols-jordan.biz",
+     "blairbrian@robinson.com"
+    ]
+   }
+  ],
+  "test_in_dist": [
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "IBARBER@HOTMAIL.COM",
+     "jessicaday@hotmail.com",
+     "jeffreydunn@gmail.com",
+     "CARSONWAYNE@YAHOO.COM"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "emlid",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "danielleblackburn@carrillo.biz",
+     "christian62@jones-stone.com",
+     "tclark@campbell.com",
+     "smithandrea@lee.info"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "value",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "herreramegan@yahoo.com",
+     "andrewwright@gmail.com",
+     "hamiltontyler@hotmail.com",
+     "fhamilton@yahoo.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "em",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "reedrobert@yahoo.com",
+     "jennifergarrett@gmail.com",
+     "cruzana@yahoo.com",
+     "phoffman@yahoo.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "HSanders474@dixon-howard.biz",
+     "HRodriguez294@boyd-hutchinson.com",
+     "MWolfe136@lin-ware.net",
+     "AEstrada509@hayes.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "col_23",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  morganvernon@example.com ",
+     "NaN",
+     "null",
+     "NaN"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "em",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  kristenjohnson@example.com",
+     "  christopher15@example.com",
+     "jbarnes@example.org",
+     "  eduardomorrison@example.com "
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "em",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "kimberlyshaffer@example.org",
+     "hoffmantara@example.org",
+     "jimmyadams@example.com",
+     "christopher49@example.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "arielcruz@pacheco-davis.com",
+     "juanmarshall@nguyen.com",
+     "sstewart@robertson.com",
+     "ichang@martin.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "CWatson293@leonard.biz",
+     "DBanks110@miller.info",
+     "GMartinez978@jennings-guzman.com",
+     "DJones603@wright.biz"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "PERSON_NAME",
+    "header": "unnamed_25",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "BSnyder610@fuller.org",
+     "see notes",
+     "BBailey441@ho.org",
+     "PWilliams662@johnson.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "jimenezeugene@calhoun.info",
+     "QGARCIA@CRAWFORD.ORG",
+     "N/A",
+     "imarsh@lee.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "LAT_LONG",
+    "header": "lon",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "qblevins@example.com",
+     "emily65@example.net",
+     "gloria01@example.org",
+     "cfrazier@example.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "GOVT_ID",
+    "header": "aadhaar",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "rreeves@adams.com",
+     "dlane@curtis.com",
+     "kevinpalmer@white-kline.org",
+     "dorothy30@leonard.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "col_34",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "hlarsen@yahoo.com",
+     "harrybryant@hotmail.com",
+     "cyoung@hotmail.com",
+     "lisamcknight@hotmail.com"
+    ]
+   }
+  ],
+  "test_unseen_header": [
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "inbox",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "davidhunt@jimenez.com",
+     "austinwilliams@cross.net",
+     "elizabeth71@shepard.com",
+     "claudiawelch@ramirez.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "inbox",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "kelsey01@hotmail.com",
+     "leerodney@hotmail.com",
+     "david89@gmail.com",
+     "MATTHEW79@GMAIL.COM"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "ADDRESS",
+    "header": "eaddr",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "xlevine@example.org",
+     "wandaheath@example.net",
+     "sparks@example.net",
+     "agarcia@example.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "ADDRESS",
+    "header": "eaddr",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "bryangutierrez@gmail.com",
+     "ehernandez@hotmail.com",
+     "thompsonhailey@gmail.com",
+     "urichardson@gmail.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "ADDRESS",
+    "header": "cust_eaddr",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "lbell@example.com",
+     "N/A",
+     "fthomas@example.net",
+     "gkelley@example.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "user_inbox",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "LLong319@reed-hubbard.org",
+     "NMeyer205@bennett-lawrence.com",
+     "SPeterson796@johnson-conner.com",
+     "JRodriguez717@mayo-dixon.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "inbox",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "crawfordjessica@example.net",
+     "uwilliams@example.net",
+     "butlergary@example.net",
+     "elizabeth57@example.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "inbox",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "ylopez@white.org",
+     "lopezjennifer@diaz-hamilton.net",
+     "brownnicolas@rollins.com",
+     "qmurray@cobb-harper.info"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "inbox",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "KMurphy616@vasquez-smith.com",
+     "JHarmon549@dougherty.biz",
+     "N/A",
+     "-"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "inbox",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  fletchertravis@hotmail.com ",
+     "  melinda10@gmail.com ",
+     "unknown",
+     "  weisspeter@gmail.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "inbox",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "charles23@yahoo.com",
+     "  wjefferson@gmail.com ",
+     "  whitecarolyn@hotmail.com",
+     "  pattersonjoseph@yahoo.com  "
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "ADDRESS",
+    "header": "EADDR",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "DANIEL77@EXAMPLE.NET",
+     "nicholasjohnson@example.com",
+     "ymarquez@example.net",
+     "kevinbrown@example.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "ADDRESS",
+    "header": "cust_eaddr",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "copelandwendy@gmail.com",
+     "  123 ",
+     "LEWISNATALIE@HOTMAIL.COM",
+     "  victorchan@hotmail.com  "
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "ADDRESS",
+    "header": "eaddr",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "JHopkins493@thomas.com",
+     "WDuncan214@lewis.com",
+     "JDaugherty730@rowe.com",
+     "JStevens899@hall-perez.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "inbox",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "NaN",
+     "garciajennifer@richards-shelton.com",
+     "erneststrong@davis.com",
+     "xblair@coleman.biz"
+    ]
+   }
+  ],
+  "test_unseen_locale": [
+   {
+    "true": "EMAIL",
+    "pred": "PHONE",
+    "header": "ph-no",
+    "header_style": "misleading",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "  BBUCKLEY870@POWER.COM ",
+     "KWhite777@grant-allen.com",
+     "ALord550@tyler-jackson.net",
+     "  AJones316@cameron.com  "
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "EML",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "katy87@turnbull.biz",
+     "FWHITEHOUSE@SHORT.CO.UK",
+     "kwilson@gray.com",
+     "georgedarren@roberts-butcher.co.uk"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "  wardjoshua@wright-hall.net  ",
+     "deanpatel@bell-thomson.com",
+     "ahancock@jones-dixon.com",
+     "JOHNBERNARD@HUNT.COM"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "var19",
+    "header_style": "generic",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "  SJohn705@brown.com  ",
+     "  PMorgan609@hill.com",
+     "KCollins363@barber.com",
+     "IHart155@rees-reynolds.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "LAT_LONG",
+    "header": "gps",
+    "header_style": "misleading",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "kevin49@example.com",
+     "lhorton@example.com",
+     "robinpearson@example.net",
+     "roylamb@example.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "EMLID",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "ELLIOTDENNIS@HOTMAIL.COM",
+     "natashawright@gmail.com",
+     "mevans@gmail.com",
+     "CWATSON@YAHOO.CO.UK"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "emlid",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "scottjeffrey@yahoo.com",
+     "michelle63@yahoo.co.uk",
+     "xbutler@hotmail.co.uk",
+     "gharvey@hotmail.co.uk"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "tbl_em",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "samhumphreys@hewitt.net",
+     "kirstybrown@davies-lewis.com",
+     "GERALDINE22@MILLER.COM",
+     "tstone@abbott.org"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "value",
+    "header_style": "misleading",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "megan39@outlook.com",
+     "  reecerussell@outlook.com",
+     "  ashtonanna@yahoo.co.uk  ",
+     "kempeileen@outlook.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "pricefiona@lee.com",
+     "matthewsstanley@bryan.net",
+     "jay06@parkinson.co.uk",
+     "tgreen@baker-butler.biz"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "details",
+    "header_style": "misleading",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "N/A",
+     "stevensshaun@hotmail.com",
+     "jeanobrien@yahoo.com",
+     "STACEYOLIVER@HOTMAIL.CO.UK"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "vincentwright@example.org",
+     "lauren06@example.net",
+     "rossfoster@example.org",
+     "katythomas@example.org"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "IP_ADDRESS",
+    "header": "SRC_IP",
+    "header_style": "misleading",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "N/A",
+     "RITACARTER@GRAY.COM",
+     "ofrancis@wood-price.com",
+     "clloyd@connolly.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "qsimpson@fraser-hussain.com",
+     "CLARKSAMUEL@CLARKE-JACKSON.COM",
+     "staceyrogers@ford.info",
+     "hjones@martin-riley.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "eml",
+    "header_style": "clear",
+    "locale": "en_GB",
+    "source": "synthetic",
+    "values": [
+     "SDale886@houghton.net",
+     "test",
+     "DGriffiths342@west-sanders.com",
+     "test"
+    ]
+   }
+  ],
+  "test_headerless": [
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "IBARBER@HOTMAIL.COM",
+     "jessicaday@hotmail.com",
+     "jeffreydunn@gmail.com",
+     "CARSONWAYNE@YAHOO.COM"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "emlid",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "danielleblackburn@carrillo.biz",
+     "christian62@jones-stone.com",
+     "tclark@campbell.com",
+     "smithandrea@lee.info"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "email",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "JBradshaw192@bates.com",
+     "MMann638@hughes-cooper.com",
+     "MCollins602@davis.com",
+     "EAlexander768@powell.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "value",
+    "header_style": "misleading",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "herreramegan@yahoo.com",
+     "andrewwright@gmail.com",
+     "hamiltontyler@hotmail.com",
+     "fhamilton@yahoo.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "tbl_mail",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "heather12@example.org",
+     "CHRISTY62@EXAMPLE.NET",
+     "martinchristopher@example.org",
+     "ellenphillips@example.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "emailaddress_raw",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "andrewwheeler@morris.com",
+     "scott79@carter.com",
+     "kpowell@smith.info",
+     "ryan67@gonzalez.info"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "mail",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "-",
+     "rosstaylor@yahoo.com",
+     "johnnywhite@yahoo.com",
+     "null"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "em",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "reedrobert@yahoo.com",
+     "jennifergarrett@gmail.com",
+     "cruzana@yahoo.com",
+     "phoffman@yahoo.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "HSanders474@dixon-howard.biz",
+     "HRodriguez294@boyd-hutchinson.com",
+     "MWolfe136@lin-ware.net",
+     "AEstrada509@hayes.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "col_23",
+    "header_style": "generic",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  morganvernon@example.com ",
+     "NaN",
+     "null",
+     "NaN"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "contact-email",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "kenneth32@rose-ho.info",
+     "ortizblake@price-chambers.com",
+     "N/A",
+     "NATHANSTEVENS@BROWN.COM"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "em",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "  kristenjohnson@example.com",
+     "  christopher15@example.com",
+     "jbarnes@example.org",
+     "  eduardomorrison@example.com "
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": "em",
+    "header_style": "clear",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "kimberlyshaffer@example.org",
+     "hoffmantara@example.org",
+     "jimmyadams@example.com",
+     "christopher49@example.net"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "arielcruz@pacheco-davis.com",
+     "juanmarshall@nguyen.com",
+     "sstewart@robertson.com",
+     "ichang@martin.com"
+    ]
+   },
+   {
+    "true": "EMAIL",
+    "pred": "NONE",
+    "header": null,
+    "header_style": "none",
+    "locale": "en_US",
+    "source": "synthetic",
+    "values": [
+     "CWatson293@leonard.biz",
+     "DBanks110@miller.info",
+     "GMartinez978@jennings-guzman.com",
+     "DJones603@wright.biz"
+    ]
+   }
+  ]
+ }
+}

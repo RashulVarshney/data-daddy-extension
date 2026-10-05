@@ -1,0 +1,71 @@
+{
+ "listing_id": "listing-003-household-energy",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "meter_id",
+   "predicted_class": "NONE",
+   "confidence": 0.9701,
+   "null_rate": 0.053,
+   "n_unique": 284,
+   "dtype": "text"
+  },
+  {
+   "name": "kwh",
+   "predicted_class": "NONE",
+   "confidence": 0.9983,
+   "null_rate": 0.023,
+   "n_unique": 292,
+   "dtype": "numeric",
+   "min": 52.46,
+   "max": 898.77,
+   "mean": 488.481
+  },
+  {
+   "name": "tariff",
+   "predicted_class": "NONE",
+   "confidence": 0.9997,
+   "null_rate": 0.03,
+   "n_unique": 3,
+   "dtype": "text"
+  },
+  {
+   "name": "month",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.033,
+   "n_unique": 12,
+   "dtype": "numeric",
+   "min": 1.0,
+   "max": 12.0,
+   "mean": 6.61
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8981,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

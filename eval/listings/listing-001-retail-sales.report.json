@@ -1,0 +1,87 @@
+{
+ "listing_id": "listing-001-retail-sales",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "order_id",
+   "predicted_class": "NONE",
+   "confidence": 0.9813,
+   "null_rate": 0.043,
+   "n_unique": 287,
+   "dtype": "text"
+  },
+  {
+   "name": "product_category",
+   "predicted_class": "NONE",
+   "confidence": 0.9998,
+   "null_rate": 0.023,
+   "n_unique": 5,
+   "dtype": "text"
+  },
+  {
+   "name": "quantity",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.033,
+   "n_unique": 12,
+   "dtype": "numeric",
+   "min": 1.0,
+   "max": 12.0,
+   "mean": 6.283
+  },
+  {
+   "name": "unit_price",
+   "predicted_class": "NONE",
+   "confidence": 0.9994,
+   "null_rate": 0.03,
+   "n_unique": 290,
+   "dtype": "numeric",
+   "min": 2.47,
+   "max": 399.67,
+   "mean": 203.091
+  },
+  {
+   "name": "order_date",
+   "predicted_class": "NONE",
+   "confidence": 0.9684,
+   "null_rate": 0.02,
+   "n_unique": 231,
+   "dtype": "text"
+  },
+  {
+   "name": "store_region",
+   "predicted_class": "NONE",
+   "confidence": 0.9997,
+   "null_rate": 0.04,
+   "n_unique": 4,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8741,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

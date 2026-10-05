@@ -1,0 +1,393 @@
+{
+  "n_rows": 539,
+  "n_columns": 36,
+  "columns": [
+    {
+      "name": "last_name",
+      "predicted_class": "PERSON_NAME",
+      "confidence": 0.9815,
+      "top3": {
+        "PERSON_NAME": 0.9815,
+        "NONE": 0.0184,
+        "GOVT_ID": 0.0
+      }
+    },
+    {
+      "name": "first_name",
+      "predicted_class": "PERSON_NAME",
+      "confidence": 0.94,
+      "top3": {
+        "PERSON_NAME": 0.94,
+        "NONE": 0.0599,
+        "GOVT_ID": 0.0
+      }
+    },
+    {
+      "name": "middle_name",
+      "predicted_class": "NONE",
+      "confidence": 0.9921,
+      "top3": {
+        "NONE": 0.9921,
+        "PERSON_NAME": 0.0079,
+        "EMAIL": 0.0
+      }
+    },
+    {
+      "name": "suffix",
+      "predicted_class": "NONE",
+      "confidence": 0.9998,
+      "top3": {
+        "NONE": 0.9998,
+        "PERSON_NAME": 0.0002,
+        "LAT_LONG": 0.0
+      }
+    },
+    {
+      "name": "nickname",
+      "predicted_class": "PERSON_NAME",
+      "confidence": 0.9004,
+      "top3": {
+        "PERSON_NAME": 0.9004,
+        "NONE": 0.0995,
+        "LAT_LONG": 0.0
+      }
+    },
+    {
+      "name": "full_name",
+      "predicted_class": "NONE",
+      "confidence": 0.6082,
+      "top3": {
+        "NONE": 0.6082,
+        "PERSON_NAME": 0.3744,
+        "ADDRESS": 0.0094
+      }
+    },
+    {
+      "name": "birthday",
+      "predicted_class": "DOB",
+      "confidence": 0.9951,
+      "top3": {
+        "DOB": 0.9951,
+        "NONE": 0.0048,
+        "PHONE": 0.0001
+      }
+    },
+    {
+      "name": "gender",
+      "predicted_class": "NONE",
+      "confidence": 0.9998,
+      "top3": {
+        "NONE": 0.9998,
+        "PERSON_NAME": 0.0002,
+        "GOVT_ID": 0.0
+      }
+    },
+    {
+      "name": "type",
+      "predicted_class": "NONE",
+      "confidence": 0.9959,
+      "top3": {
+        "NONE": 0.9959,
+        "PERSON_NAME": 0.0041,
+        "PHONE": 0.0
+      }
+    },
+    {
+      "name": "state",
+      "predicted_class": "PERSON_NAME",
+      "confidence": 0.6148,
+      "top3": {
+        "PERSON_NAME": 0.6148,
+        "NONE": 0.3852,
+        "GOVT_ID": 0.0
+      }
+    },
+    {
+      "name": "district",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "senate_class",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "LAT_LONG": 0.0
+      }
+    },
+    {
+      "name": "party",
+      "predicted_class": "NONE",
+      "confidence": 0.9974,
+      "top3": {
+        "NONE": 0.9974,
+        "PERSON_NAME": 0.0026,
+        "EMAIL": 0.0
+      }
+    },
+    {
+      "name": "url",
+      "predicted_class": "ADDRESS",
+      "confidence": 0.9596,
+      "top3": {
+        "ADDRESS": 0.9596,
+        "PERSON_NAME": 0.0156,
+        "IP_ADDRESS": 0.0145
+      }
+    },
+    {
+      "name": "address",
+      "predicted_class": "ADDRESS",
+      "confidence": 0.9998,
+      "top3": {
+        "ADDRESS": 0.9998,
+        "PHONE": 0.0002,
+        "DOB": 0.0
+      }
+    },
+    {
+      "name": "phone",
+      "predicted_class": "PHONE",
+      "confidence": 0.9991,
+      "top3": {
+        "PHONE": 0.9991,
+        "NONE": 0.0008,
+        "DOB": 0.0001
+      }
+    },
+    {
+      "name": "contact_form",
+      "predicted_class": "IP_ADDRESS",
+      "confidence": 0.9984,
+      "top3": {
+        "IP_ADDRESS": 0.9984,
+        "EMAIL": 0.001,
+        "DOB": 0.0003
+      }
+    },
+    {
+      "name": "rss_url",
+      "predicted_class": "IP_ADDRESS",
+      "confidence": 0.9579,
+      "top3": {
+        "IP_ADDRESS": 0.9579,
+        "ADDRESS": 0.0414,
+        "EMAIL": 0.0007
+      }
+    },
+    {
+      "name": "twitter",
+      "predicted_class": "PERSON_NAME",
+      "confidence": 0.9662,
+      "top3": {
+        "PERSON_NAME": 0.9662,
+        "NONE": 0.0336,
+        "EMAIL": 0.0001
+      }
+    },
+    {
+      "name": "twitter_id",
+      "predicted_class": "NONE",
+      "confidence": 0.9491,
+      "top3": {
+        "NONE": 0.9491,
+        "PHONE": 0.046,
+        "GOVT_ID": 0.0046
+      }
+    },
+    {
+      "name": "facebook",
+      "predicted_class": "NONE",
+      "confidence": 0.9961,
+      "top3": {
+        "NONE": 0.9961,
+        "PERSON_NAME": 0.0024,
+        "GOVT_ID": 0.0006
+      }
+    },
+    {
+      "name": "youtube",
+      "predicted_class": "NONE",
+      "confidence": 0.9522,
+      "top3": {
+        "NONE": 0.9522,
+        "IP_ADDRESS": 0.0237,
+        "PERSON_NAME": 0.0152
+      }
+    },
+    {
+      "name": "youtube_id",
+      "predicted_class": "NONE",
+      "confidence": 0.8243,
+      "top3": {
+        "NONE": 0.8243,
+        "IP_ADDRESS": 0.0724,
+        "EMAIL": 0.0481
+      }
+    },
+    {
+      "name": "mastodon",
+      "predicted_class": "EMAIL",
+      "confidence": 0.7691,
+      "top3": {
+        "EMAIL": 0.7691,
+        "NONE": 0.1774,
+        "IP_ADDRESS": 0.0523
+      }
+    },
+    {
+      "name": "bioguide_id",
+      "predicted_class": "NONE",
+      "confidence": 0.9702,
+      "top3": {
+        "NONE": 0.9702,
+        "PHONE": 0.0222,
+        "GOVT_ID": 0.0039
+      }
+    },
+    {
+      "name": "thomas_id",
+      "predicted_class": "NONE",
+      "confidence": 0.9994,
+      "top3": {
+        "NONE": 0.9994,
+        "PHONE": 0.0004,
+        "LAT_LONG": 0.0001
+      }
+    },
+    {
+      "name": "opensecrets_id",
+      "predicted_class": "NONE",
+      "confidence": 0.9753,
+      "top3": {
+        "NONE": 0.9753,
+        "PHONE": 0.0215,
+        "GOVT_ID": 0.002
+      }
+    },
+    {
+      "name": "lis_id",
+      "predicted_class": "NONE",
+      "confidence": 0.9892,
+      "top3": {
+        "NONE": 0.9892,
+        "LAT_LONG": 0.0072,
+        "PHONE": 0.0017
+      }
+    },
+    {
+      "name": "fec_ids",
+      "predicted_class": "NONE",
+      "confidence": 0.9989,
+      "top3": {
+        "NONE": 0.9989,
+        "GOVT_ID": 0.0004,
+        "IP_ADDRESS": 0.0003
+      }
+    },
+    {
+      "name": "cspan_id",
+      "predicted_class": "NONE",
+      "confidence": 0.9976,
+      "top3": {
+        "NONE": 0.9976,
+        "PHONE": 0.0023,
+        "GOVT_ID": 0.0001
+      }
+    },
+    {
+      "name": "govtrack_id",
+      "predicted_class": "NONE",
+      "confidence": 0.9996,
+      "top3": {
+        "NONE": 0.9996,
+        "PHONE": 0.0003,
+        "GOVT_ID": 0.0001
+      }
+    },
+    {
+      "name": "votesmart_id",
+      "predicted_class": "NONE",
+      "confidence": 0.9999,
+      "top3": {
+        "NONE": 0.9999,
+        "PHONE": 0.0001,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "ballotpedia_id",
+      "predicted_class": "NONE",
+      "confidence": 0.8528,
+      "top3": {
+        "NONE": 0.8528,
+        "PERSON_NAME": 0.1232,
+        "ADDRESS": 0.0098
+      }
+    },
+    {
+      "name": "washington_post_id",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PERSON_NAME": 0.0,
+        "PHONE": 0.0
+      }
+    },
+    {
+      "name": "icpsr_id",
+      "predicted_class": "NONE",
+      "confidence": 0.9999,
+      "top3": {
+        "NONE": 0.9999,
+        "PHONE": 0.0001,
+        "LAT_LONG": 0.0
+      }
+    },
+    {
+      "name": "wikipedia_id",
+      "predicted_class": "NONE",
+      "confidence": 0.8839,
+      "top3": {
+        "NONE": 0.8839,
+        "PERSON_NAME": 0.1002,
+        "ADDRESS": 0.0053
+      }
+    }
+  ],
+  "quasi_identifier_columns": [
+    "birthday",
+    "gender"
+  ],
+  "quasi_identifier_uniqueness": 0.974,
+  "risk": {
+    "score": 0.9811,
+    "level": "CRITICAL",
+    "components": {
+      "direct": 0.9144,
+      "quasi_identifier": 0.7792,
+      "per_class": {
+        "PERSON_NAME": 0.3067,
+        "DOB": 0.38,
+        "ADDRESS": 0.4667,
+        "PHONE": 0.3167,
+        "IP_ADDRESS": 0.2,
+        "EMAIL": 0.3167
+      }
+    }
+  },
+  "tier_policy": {
+    "risk_level": "CRITICAL",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": true
+  }
+}

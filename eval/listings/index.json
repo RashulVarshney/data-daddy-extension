@@ -1,0 +1,912 @@
+[
+ {
+  "id": "listing-001-retail-sales",
+  "title": "Retail Sales Transactions",
+  "tasks": [
+   "tabular-regression"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "order_id": "NONE",
+    "product_category": "NONE",
+    "quantity": "NONE",
+    "unit_price": "NONE",
+    "order_date": "NONE",
+    "store_region": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "c39b",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-002-iot-temperature",
+  "title": "IoT Temperature Sensors",
+  "tasks": [
+   "time-series-forecasting"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "sensor_id": "NONE",
+    "temp_c": "NONE",
+    "humidity": "NONE",
+    "battery_pct": "NONE",
+    "timestamp": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "3c55",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-003-household-energy",
+  "title": "Household Energy Usage (aggregated)",
+  "tasks": [
+   "tabular-regression"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "meter_id": "NONE",
+    "kwh": "NONE",
+    "tariff": "NONE",
+    "month": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "1039",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-004-web-traffic-agg",
+  "title": "Website Traffic Aggregates",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "page": "NONE",
+    "visits": "NONE",
+    "bounce_rate": "NONE",
+    "avg_session_s": "NONE",
+    "country": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "258b",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-005-school-aggregates",
+  "title": "School Performance Aggregates",
+  "tasks": [
+   "tabular-regression"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "school_code": "NONE",
+    "grade_level": "NONE",
+    "avg_score": "NONE",
+    "n_students": "NONE",
+    "year": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "0abf",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-006-flight-delays",
+  "title": "Airline Flight Delays",
+  "tasks": [
+   "tabular-regression"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "flight_no": "NONE",
+    "carrier": "NONE",
+    "origin": "NONE",
+    "dest": "NONE",
+    "delay_min": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "1e9d",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-007-crop-yield",
+  "title": "Crop Yield Records",
+  "tasks": [
+   "tabular-regression"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "field_id": "NONE",
+    "crop": "NONE",
+    "yield_t_ha": "NONE",
+    "rainfall_mm": "NONE",
+    "year": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "1b21",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-008-review-stats",
+  "title": "Product Review Statistics",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "product_id": "NONE",
+    "rating": "NONE",
+    "helpful_votes": "NONE",
+    "verified_purchase": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "0ae2",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-009-stock-prices",
+  "title": "Synthetic Stock Prices",
+  "tasks": [
+   "time-series-forecasting"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "ticker": "NONE",
+    "trade_date": "NONE",
+    "open": "NONE",
+    "close": "NONE",
+    "volume": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "565d",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-010-air-quality",
+  "title": "City Air Quality Stations",
+  "tasks": [
+   "time-series-forecasting"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "station_id": "NONE",
+    "pm25": "NONE",
+    "pm10": "NONE",
+    "no2": "NONE",
+    "reading_date": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "none",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "183e",
+   "true_risk": "LOW",
+   "true_tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-011-crm-contacts",
+  "title": "B2B CRM Contacts",
+  "tasks": [
+   "text-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "full_name": "PERSON_NAME",
+    "work_email": "EMAIL",
+    "mobile_number": "PHONE",
+    "company": "NONE",
+    "city": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "full_name",
+    "work_email",
+    "mobile_number"
+   ],
+   "claim": "disclosed",
+   "honest_card": true,
+   "leaky_card": true,
+   "canary_tag": "54af",
+   "true_risk": "HIGH",
+   "true_tier_policy": {
+    "risk_level": "HIGH",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-012-hr-records",
+  "title": "Employee HR Records",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "employee_name": "PERSON_NAME",
+    "date_of_birth": "DOB",
+    "home_address": "ADDRESS",
+    "tax_id": "GOVT_ID",
+    "salary": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "employee_name",
+    "date_of_birth",
+    "home_address",
+    "tax_id"
+   ],
+   "claim": "disclosed",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "fb0a",
+   "true_risk": "CRITICAL",
+   "true_tier_policy": {
+    "risk_level": "CRITICAL",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": true
+   }
+  }
+ },
+ {
+  "id": "listing-013-clinic-visits",
+  "title": "Clinic Visit Log",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "patient_name": "PERSON_NAME",
+    "dob": "DOB",
+    "phone": "PHONE",
+    "diagnosis_code": "NONE",
+    "visit_date": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "patient_name",
+    "dob",
+    "phone"
+   ],
+   "claim": "disclosed",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "7494",
+   "true_risk": "HIGH",
+   "true_tier_policy": {
+    "risk_level": "HIGH",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-014-newsletter-subs",
+  "title": "Newsletter Subscribers",
+  "tasks": [
+   "text-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "email": "EMAIL",
+    "signup_date": "NONE",
+    "plan": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "email"
+   ],
+   "claim": "disclosed",
+   "honest_card": true,
+   "leaky_card": true,
+   "canary_tag": "9a29",
+   "true_risk": "MEDIUM",
+   "true_tier_policy": {
+    "risk_level": "MEDIUM",
+    "required_tier": 2,
+    "tier_name": "identity proof",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-015-delivery-logistics",
+  "title": "Last-Mile Delivery Logistics",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "customer_name": "PERSON_NAME",
+    "address": "ADDRESS",
+    "phone": "PHONE",
+    "order_id": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "customer_name",
+    "address",
+    "phone"
+   ],
+   "claim": "disclosed",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "6811",
+   "true_risk": "CRITICAL",
+   "true_tier_policy": {
+    "risk_level": "CRITICAL",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": true
+   }
+  }
+ },
+ {
+  "id": "listing-016-loan-applications",
+  "title": "Loan Applications",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "applicant": "PERSON_NAME",
+    "ssn": "GOVT_ID",
+    "dob": "DOB",
+    "income": "NONE",
+    "address": "ADDRESS",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "applicant",
+    "ssn",
+    "dob",
+    "address"
+   ],
+   "claim": "disclosed",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "c17e",
+   "true_risk": "CRITICAL",
+   "true_tier_policy": {
+    "risk_level": "CRITICAL",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": true
+   }
+  }
+ },
+ {
+  "id": "listing-017-customer-feedback",
+  "title": "Customer Feedback Scores",
+  "tasks": [
+   "text-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "customer_email": "EMAIL",
+    "rating": "NONE",
+    "comment_len": "NONE",
+    "product": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "customer_email"
+   ],
+   "claim": "no_pii",
+   "honest_card": false,
+   "leaky_card": true,
+   "canary_tag": "d070",
+   "true_risk": "MEDIUM",
+   "true_tier_policy": {
+    "risk_level": "MEDIUM",
+    "required_tier": 2,
+    "tier_name": "identity proof",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-018-app-signups",
+  "title": "App Signup Analytics",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "user_phone": "PHONE",
+    "device_os": "NONE",
+    "signup_date": "NONE",
+    "country": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "user_phone"
+   ],
+   "claim": "no_pii",
+   "honest_card": false,
+   "leaky_card": false,
+   "canary_tag": "2d03",
+   "true_risk": "MEDIUM",
+   "true_tier_policy": {
+    "risk_level": "MEDIUM",
+    "required_tier": 2,
+    "tier_name": "identity proof",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-019-survey-responses",
+  "title": "Consumer Survey Responses",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "respondent": "PERSON_NAME",
+    "age": "NONE",
+    "gender": "NONE",
+    "zip": "NONE",
+    "income_band": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "respondent"
+   ],
+   "claim": "no_pii",
+   "honest_card": false,
+   "leaky_card": false,
+   "canary_tag": "2917",
+   "true_risk": "CRITICAL",
+   "true_tier_policy": {
+    "risk_level": "CRITICAL",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": true
+   }
+  }
+ },
+ {
+  "id": "listing-020-support-tickets",
+  "title": "Support Ticket Metrics",
+  "tasks": [
+   "text-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "ticket_id": "NONE",
+    "requester_email": "EMAIL",
+    "source_ip": "IP_ADDRESS",
+    "category": "NONE",
+    "resolution_hours": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "requester_email",
+    "source_ip"
+   ],
+   "claim": "no_pii",
+   "honest_card": false,
+   "leaky_card": true,
+   "canary_tag": "21ec",
+   "true_risk": "HIGH",
+   "true_tier_policy": {
+    "risk_level": "HIGH",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-021-fleet-tracking",
+  "title": "Fleet Tracking (aggregated)",
+  "tasks": [
+   "time-series-forecasting"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "vehicle_id": "NONE",
+    "lat": "LAT_LONG",
+    "lon": "LAT_LONG",
+    "driver_name": "PERSON_NAME",
+    "timestamp": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "lat",
+    "lon",
+    "driver_name"
+   ],
+   "claim": "no_pii",
+   "honest_card": false,
+   "leaky_card": false,
+   "canary_tag": "0c7d",
+   "true_risk": "HIGH",
+   "true_tier_policy": {
+    "risk_level": "HIGH",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-022-census-sample",
+  "title": "Census Micro-Sample",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "zip": "NONE",
+    "age": "NONE",
+    "gender": "NONE",
+    "occupation": "NONE",
+    "income_band": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [],
+   "claim": "no_pii",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "93f9",
+   "true_risk": "CRITICAL",
+   "true_tier_policy": {
+    "risk_level": "CRITICAL",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": true
+   }
+  }
+ },
+ {
+  "id": "listing-023-geo-checkins",
+  "title": "Pseudonymized Geo Check-ins",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "user_hash": "NONE",
+    "coords": "LAT_LONG",
+    "timestamp": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "coords"
+   ],
+   "claim": "no_pii",
+   "honest_card": false,
+   "leaky_card": false,
+   "canary_tag": "c442",
+   "true_risk": "MEDIUM",
+   "true_tier_policy": {
+    "risk_level": "MEDIUM",
+    "required_tier": 2,
+    "tier_name": "identity proof",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-024-server-logs",
+  "title": "Web Server Access Logs",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "client_ip": "IP_ADDRESS",
+    "url_path": "NONE",
+    "status": "NONE",
+    "bytes": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "client_ip"
+   ],
+   "claim": "disclosed",
+   "honest_card": true,
+   "leaky_card": false,
+   "canary_tag": "1113",
+   "true_risk": "MEDIUM",
+   "true_tier_policy": {
+    "risk_level": "MEDIUM",
+    "required_tier": 2,
+    "tier_name": "identity proof",
+    "raw_rows_blocked": false
+   }
+  }
+ },
+ {
+  "id": "listing-025-student-roster",
+  "title": "Student Roster",
+  "tasks": [
+   "tabular-classification"
+  ],
+  "license": [
+   "cc-by-4.0"
+  ],
+  "size_categories": [
+   "n<1K"
+  ],
+  "truth": {
+   "labels": {
+    "student_name": "PERSON_NAME",
+    "dob": "DOB",
+    "parent_phone": "PHONE",
+    "grade": "NONE",
+    "internal_note": "NONE"
+   },
+   "pii_columns": [
+    "student_name",
+    "dob",
+    "parent_phone"
+   ],
+   "claim": "no_pii",
+   "honest_card": false,
+   "leaky_card": false,
+   "canary_tag": "07ad",
+   "true_risk": "CRITICAL",
+   "true_tier_policy": {
+    "risk_level": "CRITICAL",
+    "required_tier": 3,
+    "tier_name": "document verification",
+    "raw_rows_blocked": true
+   }
+  }
+ }
+]

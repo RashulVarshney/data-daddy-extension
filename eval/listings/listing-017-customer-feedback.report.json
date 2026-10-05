@@ -1,0 +1,75 @@
+{
+ "listing_id": "listing-017-customer-feedback",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "customer_email",
+   "predicted_class": "EMAIL",
+   "confidence": 0.9999,
+   "null_rate": 0.023,
+   "n_unique": 293,
+   "dtype": "text"
+  },
+  {
+   "name": "rating",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.03,
+   "n_unique": 5,
+   "dtype": "numeric",
+   "min": 1.0,
+   "max": 5.0,
+   "mean": 3.014
+  },
+  {
+   "name": "comment_len",
+   "predicted_class": "NONE",
+   "confidence": 0.9991,
+   "null_rate": 0.04,
+   "n_unique": 201,
+   "dtype": "numeric",
+   "min": 6.0,
+   "max": 398.0,
+   "mean": 208.021
+  },
+  {
+   "name": "product",
+   "predicted_class": "NONE",
+   "confidence": 0.9996,
+   "null_rate": 0.027,
+   "n_unique": 4,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8405,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "EMAIL"
+ ],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.42,
+  "level": "MEDIUM",
+  "components": {
+   "direct": 0.42,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "EMAIL": 0.42
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "MEDIUM",
+  "required_tier": 2,
+  "tier_name": "identity proof",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

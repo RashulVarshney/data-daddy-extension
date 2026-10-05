@@ -1,0 +1,82 @@
+{
+ "listing_id": "listing-010-air-quality",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "station_id",
+   "predicted_class": "NONE",
+   "confidence": 0.972,
+   "null_rate": 0.04,
+   "n_unique": 288,
+   "dtype": "text"
+  },
+  {
+   "name": "pm25",
+   "predicted_class": "NONE",
+   "confidence": 0.9977,
+   "null_rate": 0.02,
+   "n_unique": 293,
+   "dtype": "numeric",
+   "min": 3.35,
+   "max": 217.42,
+   "mean": 113.679
+  },
+  {
+   "name": "pm10",
+   "predicted_class": "NONE",
+   "confidence": 0.9995,
+   "null_rate": 0.033,
+   "n_unique": 288,
+   "dtype": "numeric",
+   "min": 5.57,
+   "max": 298.09,
+   "mean": 157.767
+  },
+  {
+   "name": "no2",
+   "predicted_class": "NONE",
+   "confidence": 0.9999,
+   "null_rate": 0.027,
+   "n_unique": 289,
+   "dtype": "numeric",
+   "min": 2.22,
+   "max": 119.62,
+   "mean": 60.468
+  },
+  {
+   "name": "reading_date",
+   "predicted_class": "NONE",
+   "confidence": 0.941,
+   "null_rate": 0.013,
+   "n_unique": 248,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.9028,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

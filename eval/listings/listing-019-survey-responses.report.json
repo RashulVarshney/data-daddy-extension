@@ -1,0 +1,87 @@
+{
+ "listing_id": "listing-019-survey-responses",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "respondent",
+   "predicted_class": "PERSON_NAME",
+   "confidence": 0.9943,
+   "null_rate": 0.023,
+   "n_unique": 293,
+   "dtype": "text"
+  },
+  {
+   "name": "age",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.053,
+   "n_unique": 62,
+   "dtype": "numeric",
+   "min": 18.0,
+   "max": 80.0,
+   "mean": 49.496
+  },
+  {
+   "name": "gender",
+   "predicted_class": "NONE",
+   "confidence": 0.9998,
+   "null_rate": 0.023,
+   "n_unique": 2,
+   "dtype": "text"
+  },
+  {
+   "name": "zip",
+   "predicted_class": "NONE",
+   "confidence": 0.9999,
+   "null_rate": 0.033,
+   "n_unique": 290,
+   "dtype": "numeric",
+   "min": 11188.0,
+   "max": 99969.0,
+   "mean": 57166.969
+  },
+  {
+   "name": "income_band",
+   "predicted_class": "NONE",
+   "confidence": 0.9988,
+   "null_rate": 0.02,
+   "n_unique": 3,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.9025,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "PERSON_NAME"
+ ],
+ "quasi_identifier_columns": [
+  "age",
+  "gender",
+  "zip"
+ ],
+ "quasi_identifier_uniqueness": 1.0,
+ "risk": {
+  "score": 0.864,
+  "level": "CRITICAL",
+  "components": {
+   "direct": 0.32,
+   "quasi_identifier": 0.8,
+   "per_class": {
+    "PERSON_NAME": 0.32
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "CRITICAL",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": true
+ },
+ "note": "aggregate statistics only; no raw values"
+}

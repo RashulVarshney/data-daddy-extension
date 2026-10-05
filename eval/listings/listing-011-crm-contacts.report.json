@@ -1,0 +1,81 @@
+{
+ "listing_id": "listing-011-crm-contacts",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "full_name",
+   "predicted_class": "PERSON_NAME",
+   "confidence": 0.9991,
+   "null_rate": 0.02,
+   "n_unique": 293,
+   "dtype": "text"
+  },
+  {
+   "name": "work_email",
+   "predicted_class": "EMAIL",
+   "confidence": 0.9999,
+   "null_rate": 0.023,
+   "n_unique": 293,
+   "dtype": "text"
+  },
+  {
+   "name": "mobile_number",
+   "predicted_class": "PHONE",
+   "confidence": 0.9997,
+   "null_rate": 0.037,
+   "n_unique": 289,
+   "dtype": "text"
+  },
+  {
+   "name": "company",
+   "predicted_class": "NONE",
+   "confidence": 0.9959,
+   "null_rate": 0.027,
+   "n_unique": 4,
+   "dtype": "text"
+  },
+  {
+   "name": "city",
+   "predicted_class": "NONE",
+   "confidence": 0.9916,
+   "null_rate": 0.023,
+   "n_unique": 4,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8809,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "EMAIL",
+  "PERSON_NAME",
+  "PHONE"
+ ],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.7552,
+  "level": "HIGH",
+  "components": {
+   "direct": 0.7552,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "PERSON_NAME": 0.32,
+    "EMAIL": 0.4,
+    "PHONE": 0.4
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "HIGH",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

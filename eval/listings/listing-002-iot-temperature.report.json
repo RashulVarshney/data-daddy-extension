@@ -1,0 +1,82 @@
+{
+ "listing_id": "listing-002-iot-temperature",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "sensor_id",
+   "predicted_class": "NONE",
+   "confidence": 0.9718,
+   "null_rate": 0.043,
+   "n_unique": 287,
+   "dtype": "text"
+  },
+  {
+   "name": "temp_c",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.033,
+   "n_unique": 281,
+   "dtype": "numeric",
+   "min": -4.94,
+   "max": 39.98,
+   "mean": 16.873
+  },
+  {
+   "name": "humidity",
+   "predicted_class": "NONE",
+   "confidence": 0.9998,
+   "null_rate": 0.03,
+   "n_unique": 283,
+   "dtype": "numeric",
+   "min": 10.12,
+   "max": 94.56,
+   "mean": 51.422
+  },
+  {
+   "name": "battery_pct",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.043,
+   "n_unique": 87,
+   "dtype": "numeric",
+   "min": 5.0,
+   "max": 100.0,
+   "mean": 51.254
+  },
+  {
+   "name": "timestamp",
+   "predicted_class": "NONE",
+   "confidence": 0.9484,
+   "null_rate": 0.013,
+   "n_unique": 228,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8918,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

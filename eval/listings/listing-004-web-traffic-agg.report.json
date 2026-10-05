@@ -1,0 +1,84 @@
+{
+ "listing_id": "listing-004-web-traffic-agg",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "page",
+   "predicted_class": "NONE",
+   "confidence": 0.9993,
+   "null_rate": 0.043,
+   "n_unique": 5,
+   "dtype": "text"
+  },
+  {
+   "name": "visits",
+   "predicted_class": "NONE",
+   "confidence": 0.9901,
+   "null_rate": 0.017,
+   "n_unique": 293,
+   "dtype": "numeric",
+   "min": 10.0,
+   "max": 8991.0,
+   "mean": 4483.207
+  },
+  {
+   "name": "bounce_rate",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.027,
+   "n_unique": 78,
+   "dtype": "numeric",
+   "min": 0.11,
+   "max": 0.89,
+   "mean": 0.508
+  },
+  {
+   "name": "avg_session_s",
+   "predicted_class": "NONE",
+   "confidence": 0.999,
+   "null_rate": 0.033,
+   "n_unique": 225,
+   "dtype": "numeric",
+   "min": 20.0,
+   "max": 599.0,
+   "mean": 318.652
+  },
+  {
+   "name": "country",
+   "predicted_class": "NONE",
+   "confidence": 0.9815,
+   "null_rate": 0.017,
+   "n_unique": 5,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.9,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [
+  "page"
+ ],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

@@ -1,0 +1,82 @@
+{
+ "listing_id": "listing-009-stock-prices",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "ticker",
+   "predicted_class": "NONE",
+   "confidence": 0.9875,
+   "null_rate": 0.033,
+   "n_unique": 4,
+   "dtype": "text"
+  },
+  {
+   "name": "trade_date",
+   "predicted_class": "NONE",
+   "confidence": 0.9237,
+   "null_rate": 0.03,
+   "n_unique": 240,
+   "dtype": "text"
+  },
+  {
+   "name": "open",
+   "predicted_class": "NONE",
+   "confidence": 0.9991,
+   "null_rate": 0.01,
+   "n_unique": 295,
+   "dtype": "numeric",
+   "min": 12.57,
+   "max": 299.07,
+   "mean": 164.017
+  },
+  {
+   "name": "close",
+   "predicted_class": "NONE",
+   "confidence": 0.9985,
+   "null_rate": 0.02,
+   "n_unique": 294,
+   "dtype": "numeric",
+   "min": 10.15,
+   "max": 299.64,
+   "mean": 150.952
+  },
+  {
+   "name": "volume",
+   "predicted_class": "NONE",
+   "confidence": 0.9999,
+   "null_rate": 0.023,
+   "n_unique": 293,
+   "dtype": "numeric",
+   "min": 4568.0,
+   "max": 899536.0,
+   "mean": 455175.628
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.9137,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

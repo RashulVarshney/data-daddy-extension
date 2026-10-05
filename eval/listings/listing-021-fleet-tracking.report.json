@@ -1,0 +1,79 @@
+{
+ "listing_id": "listing-021-fleet-tracking",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "vehicle_id",
+   "predicted_class": "NONE",
+   "confidence": 0.9854,
+   "null_rate": 0.04,
+   "n_unique": 288,
+   "dtype": "text"
+  },
+  {
+   "name": "lat",
+   "predicted_class": "LAT_LONG",
+   "confidence": 0.9955,
+   "null_rate": 0.017,
+   "n_unique": 295,
+   "dtype": "text"
+  },
+  {
+   "name": "lon",
+   "predicted_class": "LAT_LONG",
+   "confidence": 0.9995,
+   "null_rate": 0.017,
+   "n_unique": 295,
+   "dtype": "text"
+  },
+  {
+   "name": "driver_name",
+   "predicted_class": "PERSON_NAME",
+   "confidence": 0.9962,
+   "null_rate": 0.03,
+   "n_unique": 227,
+   "dtype": "text"
+  },
+  {
+   "name": "timestamp",
+   "predicted_class": "NONE",
+   "confidence": 0.891,
+   "null_rate": 0.04,
+   "n_unique": 247,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.866,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "LAT_LONG",
+  "PERSON_NAME"
+ ],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.66,
+  "level": "HIGH",
+  "components": {
+   "direct": 0.66,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "LAT_LONG": 0.5,
+    "PERSON_NAME": 0.32
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "HIGH",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

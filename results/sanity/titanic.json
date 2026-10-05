@@ -1,0 +1,146 @@
+{
+  "n_rows": 891,
+  "n_columns": 12,
+  "columns": [
+    {
+      "name": "PassengerId",
+      "predicted_class": "NONE",
+      "confidence": 0.9871,
+      "top3": {
+        "NONE": 0.9871,
+        "PHONE": 0.0121,
+        "PERSON_NAME": 0.0006
+      }
+    },
+    {
+      "name": "Survived",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "Pclass",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "Name",
+      "predicted_class": "NONE",
+      "confidence": 0.4806,
+      "top3": {
+        "NONE": 0.4806,
+        "ADDRESS": 0.4679,
+        "IP_ADDRESS": 0.0392
+      }
+    },
+    {
+      "name": "Sex",
+      "predicted_class": "NONE",
+      "confidence": 0.9991,
+      "top3": {
+        "NONE": 0.9991,
+        "PERSON_NAME": 0.0009,
+        "GOVT_ID": 0.0
+      }
+    },
+    {
+      "name": "Age",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "SibSp",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "Parch",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "Ticket",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "PHONE": 0.0,
+        "GOVT_ID": 0.0
+      }
+    },
+    {
+      "name": "Fare",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "LAT_LONG": 0.0,
+        "PERSON_NAME": 0.0
+      }
+    },
+    {
+      "name": "Cabin",
+      "predicted_class": "NONE",
+      "confidence": 1.0,
+      "top3": {
+        "NONE": 1.0,
+        "GOVT_ID": 0.0,
+        "PHONE": 0.0
+      }
+    },
+    {
+      "name": "Embarked",
+      "predicted_class": "NONE",
+      "confidence": 0.9994,
+      "top3": {
+        "NONE": 0.9994,
+        "PERSON_NAME": 0.0006,
+        "GOVT_ID": 0.0
+      }
+    }
+  ],
+  "quasi_identifier_columns": [
+    "Sex",
+    "Age"
+  ],
+  "quasi_identifier_uniqueness": 0.0393,
+  "risk": {
+    "score": 0.0314,
+    "level": "LOW",
+    "components": {
+      "direct": 0.0,
+      "quasi_identifier": 0.0314,
+      "per_class": {}
+    }
+  },
+  "tier_policy": {
+    "risk_level": "LOW",
+    "required_tier": 1,
+    "tier_name": "wallet-level (basic account)",
+    "raw_rows_blocked": false
+  }
+}

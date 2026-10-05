@@ -1,0 +1,14 @@
+data/sanity/titanic.csv: 891 rows x 12 cols
+  PassengerId                  NONE         0.99
+  Survived                     NONE         1.00
+  Pclass                       NONE         1.00
+  Name                         NONE         0.48
+  Sex                          NONE         1.00
+  Age                          NONE         1.00
+  SibSp                        NONE         1.00
+  Parch                        NONE         1.00
+  Ticket                       NONE         1.00
+  Fare                         NONE         1.00
+  Cabin                        NONE         1.00
+  Embarked                     NONE         1.00
+risk=0.0314 level=LOW tier=1 raw_blocked=False

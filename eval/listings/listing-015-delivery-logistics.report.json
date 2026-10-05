@@ -1,0 +1,73 @@
+{
+ "listing_id": "listing-015-delivery-logistics",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "customer_name",
+   "predicted_class": "PERSON_NAME",
+   "confidence": 0.9999,
+   "null_rate": 0.02,
+   "n_unique": 294,
+   "dtype": "text"
+  },
+  {
+   "name": "address",
+   "predicted_class": "ADDRESS",
+   "confidence": 1.0,
+   "null_rate": 0.013,
+   "n_unique": 296,
+   "dtype": "text"
+  },
+  {
+   "name": "phone",
+   "predicted_class": "PHONE",
+   "confidence": 1.0,
+   "null_rate": 0.03,
+   "n_unique": 291,
+   "dtype": "text"
+  },
+  {
+   "name": "order_id",
+   "predicted_class": "NONE",
+   "confidence": 0.9865,
+   "null_rate": 0.04,
+   "n_unique": 288,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.9155,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "ADDRESS",
+  "PERSON_NAME",
+  "PHONE"
+ ],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.8413,
+  "level": "CRITICAL",
+  "components": {
+   "direct": 0.8413,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "PERSON_NAME": 0.336,
+    "ADDRESS": 0.588,
+    "PHONE": 0.42
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "CRITICAL",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": true
+ },
+ "note": "aggregate statistics only; no raw values"
+}

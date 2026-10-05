@@ -1,0 +1,75 @@
+{
+ "listing_id": "listing-024-server-logs",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "client_ip",
+   "predicted_class": "IP_ADDRESS",
+   "confidence": 0.9989,
+   "null_rate": 0.053,
+   "n_unique": 284,
+   "dtype": "text"
+  },
+  {
+   "name": "url_path",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.06,
+   "n_unique": 4,
+   "dtype": "text"
+  },
+  {
+   "name": "status",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.023,
+   "n_unique": 4,
+   "dtype": "numeric",
+   "min": 200.0,
+   "max": 500.0,
+   "mean": 352.13
+  },
+  {
+   "name": "bytes",
+   "predicted_class": "NONE",
+   "confidence": 0.9999,
+   "null_rate": 0.04,
+   "n_unique": 288,
+   "dtype": "numeric",
+   "min": 357.0,
+   "max": 89858.0,
+   "mean": 45034.5
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.9163,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "IP_ADDRESS"
+ ],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.252,
+  "level": "MEDIUM",
+  "components": {
+   "direct": 0.252,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "IP_ADDRESS": 0.252
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "MEDIUM",
+  "required_tier": 2,
+  "tier_name": "identity proof",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

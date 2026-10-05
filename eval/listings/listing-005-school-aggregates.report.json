@@ -1,0 +1,85 @@
+{
+ "listing_id": "listing-005-school-aggregates",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "school_code",
+   "predicted_class": "NONE",
+   "confidence": 0.9729,
+   "null_rate": 0.023,
+   "n_unique": 293,
+   "dtype": "text"
+  },
+  {
+   "name": "grade_level",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.017,
+   "n_unique": 12,
+   "dtype": "numeric",
+   "min": 1.0,
+   "max": 12.0,
+   "mean": 6.003
+  },
+  {
+   "name": "avg_score",
+   "predicted_class": "NONE",
+   "confidence": 0.9996,
+   "null_rate": 0.017,
+   "n_unique": 287,
+   "dtype": "numeric",
+   "min": 40.41,
+   "max": 97.96,
+   "mean": 68.977
+  },
+  {
+   "name": "n_students",
+   "predicted_class": "NONE",
+   "confidence": 0.9985,
+   "null_rate": 0.033,
+   "n_unique": 223,
+   "dtype": "numeric",
+   "min": 16.0,
+   "max": 475.0,
+   "mean": 251.524
+  },
+  {
+   "name": "year",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.047,
+   "n_unique": 10,
+   "dtype": "numeric",
+   "min": 2015.0,
+   "max": 2024.0,
+   "mean": 2019.479
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8387,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

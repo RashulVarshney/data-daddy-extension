@@ -1,0 +1,183 @@
+[
+ {
+  "id": "listing-001-retail-sales",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-002-iot-temperature",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-003-household-energy",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-004-web-traffic-agg",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-005-school-aggregates",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-006-flight-delays",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-007-crop-yield",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-008-review-stats",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-009-stock-prices",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-010-air-quality",
+  "truth_risk": "LOW",
+  "classifier_risk": "LOW",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-011-crm-contacts",
+  "truth_risk": "HIGH",
+  "classifier_risk": "HIGH",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-012-hr-records",
+  "truth_risk": "CRITICAL",
+  "classifier_risk": "CRITICAL",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-013-clinic-visits",
+  "truth_risk": "HIGH",
+  "classifier_risk": "HIGH",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-014-newsletter-subs",
+  "truth_risk": "MEDIUM",
+  "classifier_risk": "MEDIUM",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-015-delivery-logistics",
+  "truth_risk": "CRITICAL",
+  "classifier_risk": "CRITICAL",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-016-loan-applications",
+  "truth_risk": "CRITICAL",
+  "classifier_risk": "CRITICAL",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-017-customer-feedback",
+  "truth_risk": "MEDIUM",
+  "classifier_risk": "MEDIUM",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-018-app-signups",
+  "truth_risk": "MEDIUM",
+  "classifier_risk": "MEDIUM",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-019-survey-responses",
+  "truth_risk": "CRITICAL",
+  "classifier_risk": "CRITICAL",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-020-support-tickets",
+  "truth_risk": "HIGH",
+  "classifier_risk": "HIGH",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-021-fleet-tracking",
+  "truth_risk": "HIGH",
+  "classifier_risk": "HIGH",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-022-census-sample",
+  "truth_risk": "CRITICAL",
+  "classifier_risk": "CRITICAL",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-023-geo-checkins",
+  "truth_risk": "MEDIUM",
+  "classifier_risk": "HIGH",
+  "col_acc": 0.75,
+  "mismatches": [
+   [
+    "user_hash",
+    "NONE",
+    "PHONE"
+   ]
+  ]
+ },
+ {
+  "id": "listing-024-server-logs",
+  "truth_risk": "MEDIUM",
+  "classifier_risk": "MEDIUM",
+  "col_acc": 1.0,
+  "mismatches": []
+ },
+ {
+  "id": "listing-025-student-roster",
+  "truth_risk": "CRITICAL",
+  "classifier_risk": "CRITICAL",
+  "col_acc": 1.0,
+  "mismatches": []
+ }
+]

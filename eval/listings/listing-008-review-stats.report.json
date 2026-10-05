@@ -1,0 +1,71 @@
+{
+ "listing_id": "listing-008-review-stats",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "product_id",
+   "predicted_class": "NONE",
+   "confidence": 0.9683,
+   "null_rate": 0.033,
+   "n_unique": 290,
+   "dtype": "text"
+  },
+  {
+   "name": "rating",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.03,
+   "n_unique": 5,
+   "dtype": "numeric",
+   "min": 1.0,
+   "max": 5.0,
+   "mean": 2.99
+  },
+  {
+   "name": "helpful_votes",
+   "predicted_class": "NONE",
+   "confidence": 0.9996,
+   "null_rate": 0.033,
+   "n_unique": 153,
+   "dtype": "numeric",
+   "min": 0.0,
+   "max": 199.0,
+   "mean": 99.528
+  },
+  {
+   "name": "verified_purchase",
+   "predicted_class": "NONE",
+   "confidence": 0.9996,
+   "null_rate": 0.02,
+   "n_unique": 2,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.8507,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

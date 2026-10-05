@@ -1,0 +1,82 @@
+{
+ "listing_id": "listing-007-crop-yield",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "field_id",
+   "predicted_class": "NONE",
+   "confidence": 0.9566,
+   "null_rate": 0.017,
+   "n_unique": 295,
+   "dtype": "text"
+  },
+  {
+   "name": "crop",
+   "predicted_class": "NONE",
+   "confidence": 0.9983,
+   "null_rate": 0.02,
+   "n_unique": 4,
+   "dtype": "text"
+  },
+  {
+   "name": "yield_t_ha",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.03,
+   "n_unique": 247,
+   "dtype": "numeric",
+   "min": 1.13,
+   "max": 8.95,
+   "mean": 4.976
+  },
+  {
+   "name": "rainfall_mm",
+   "predicted_class": "NONE",
+   "confidence": 0.9982,
+   "null_rate": 0.037,
+   "n_unique": 289,
+   "dtype": "numeric",
+   "min": 100.44,
+   "max": 1395.7,
+   "mean": 744.023
+  },
+  {
+   "name": "year",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.03,
+   "n_unique": 15,
+   "dtype": "numeric",
+   "min": 2010.0,
+   "max": 2024.0,
+   "mean": 2017.526
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.857,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [],
+ "quasi_identifier_columns": [],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.0,
+  "level": "LOW",
+  "components": {
+   "direct": 0.0,
+   "quasi_identifier": 0.0,
+   "per_class": {}
+  }
+ },
+ "tier_policy": {
+  "risk_level": "LOW",
+  "required_tier": 1,
+  "tier_name": "wallet-level (basic account)",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}

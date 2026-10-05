@@ -1,0 +1,83 @@
+{
+ "listing_id": "listing-013-clinic-visits",
+ "n_rows": 300,
+ "columns": [
+  {
+   "name": "patient_name",
+   "predicted_class": "PERSON_NAME",
+   "confidence": 1.0,
+   "null_rate": 0.023,
+   "n_unique": 292,
+   "dtype": "text"
+  },
+  {
+   "name": "dob",
+   "predicted_class": "DOB",
+   "confidence": 0.9988,
+   "null_rate": 0.023,
+   "n_unique": 289,
+   "dtype": "text"
+  },
+  {
+   "name": "phone",
+   "predicted_class": "PHONE",
+   "confidence": 0.9995,
+   "null_rate": 0.027,
+   "n_unique": 292,
+   "dtype": "text"
+  },
+  {
+   "name": "diagnosis_code",
+   "predicted_class": "NONE",
+   "confidence": 1.0,
+   "null_rate": 0.02,
+   "n_unique": 4,
+   "dtype": "text"
+  },
+  {
+   "name": "visit_date",
+   "predicted_class": "NONE",
+   "confidence": 0.9036,
+   "null_rate": 0.03,
+   "n_unique": 244,
+   "dtype": "text"
+  },
+  {
+   "name": "internal_note",
+   "predicted_class": "NONE",
+   "confidence": 0.9316,
+   "null_rate": 0.0,
+   "n_unique": 300,
+   "dtype": "text"
+  }
+ ],
+ "detected_pii_classes": [
+  "DOB",
+  "PERSON_NAME",
+  "PHONE"
+ ],
+ "quasi_identifier_columns": [
+  "dob"
+ ],
+ "quasi_identifier_uniqueness": null,
+ "risk": {
+  "score": 0.7878,
+  "level": "HIGH",
+  "components": {
+   "direct": 0.7878,
+   "quasi_identifier": 0.0,
+   "per_class": {
+    "PERSON_NAME": 0.32,
+    "DOB": 0.48,
+    "PHONE": 0.4
+   }
+  }
+ },
+ "tier_policy": {
+  "risk_level": "HIGH",
+  "required_tier": 3,
+  "tier_name": "document verification",
+  "raw_rows_blocked": false
+ },
+ "note": "aggregate statistics only; no raw values"
+}
