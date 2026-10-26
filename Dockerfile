@@ -3,7 +3,7 @@ WORKDIR /app
 ENV PIP_NO_CACHE_DIR=1 PYTHONUNBUFFERED=1
 COPY pyproject.toml README.md ./
 COPY src ./src
-RUN pip install -e . --extra-index-url https://download.pytorch.org/whl/cpu
+RUN pip install -e .
 # data/, models/ and eval/listings are mounted at runtime (see docker-compose.yml); none are baked into the image
 COPY eval/listings ./eval/listings
 EXPOSE 8000

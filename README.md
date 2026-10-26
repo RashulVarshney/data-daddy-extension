@@ -42,4 +42,4 @@ See [docs/RESULTS.md](docs/RESULTS.md). Summary of what has actually been measur
 - Classifier macro-F1: 0.998 in-dist, 0.996 unseen headers, 0.996 header-less, **0.806 unseen locale** (government IDs fail completely on unseen formats). Baselines: regex 0.686, header-keyword 0.538, Presidio 0.610 (in-dist).
 - Real-CSV sanity check shows clear errors (URLs as IPs, missed names).
 - Agent guardrails, **mock harness only**: 58/62 → 4/62 attacks succeed against a deliberately vulnerable scripted agent; real-model numbers pending.
-- Retrieval metrics: **pending** (see docs/TODO.md).
+- Retrieval (2,000 cards, SILVER n=120): Hit@5 BM25 0.667 / dense 0.600 / hybrid 0.783 / hybrid+rerank 0.867 (rerank ~2 s/query on CPU). Manual set (n=30) is UNVERIFIED.

@@ -22,10 +22,10 @@ DataDaddy was a privacy-first data marketplace concept I built at a hackathon. A
 - Classifier macro-F1: 0.998 in-distribution, 0.996 unseen header styles, 0.996 header-less, 0.806 unseen locale. Baselines on the in-distribution split: regex 0.686, header-keyword 0.538, Presidio 0.610.
 - The honest reading: the synthetic task is nearly saturated, so the header-related splits barely test anything. The unseen-locale split shows a real gap (government-ID detection fails completely on unseen formats). A scan of three real public CSVs showed clear mistakes (URLs labelled as IP addresses, names missed, one dataset scored LOW when it should not be).
 - Agent guardrails against a deliberately vulnerable scripted agent: 58/62 attacks succeed with guardrails off, 4/62 with them on; benign success 25/30 → 29/30. This validates the harness and the code-enforced layers; it says nothing about real LLMs.
+- Retrieval on 2,000 cards (SILVER, 120 queries), Hit@5: BM25 0.667, dense 0.600, hybrid 0.783, hybrid+rerank 0.867; the 30 manual queries are unverified.
 - 64 offline tests pass; lint is clean; the repo is pushed to GitHub.
 
 ## What is not done yet*
-- *Retrieval metrics (Hit@5, MRR@10, nDCG@10, latency) for BM25 vs dense vs hybrid vs rerank on both chunkings. The code exists; the evaluation did not finish.
 - *Human verification of the 30 manual-review queries.
 - *Real-model agent results (needs an Anthropic key or a local Ollama-style server).
 - *Docker image build and run test.

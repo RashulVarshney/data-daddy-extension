@@ -41,7 +41,7 @@ Future*: retrain with URL / social-handle / state-code / titled-name / low-preci
 - Chunk by markdown section with a word cap and overlap; two settings (A: 150w/25 overlap, B: 400w/80). Each chunk is prefixed with a natural-language metadata line (id, tasks, languages, license, size).
 - Retrievers: BM25 (rank_bm25), dense (BAAI/bge-small-en-v1.5 + FAISS flat IP), hybrid via reciprocal rank fusion, hybrid + cross-encoder rerank (ms-marco-MiniLM-L-6-v2, optional). Dataset-level scoring = best chunk. Metadata filters (task, language, license, size).
 - Evaluation sets, reported separately: SILVER (120 queries generated from metadata with template paraphrases; relevant = all cards matching the constraints) and MANUAL-REVIEW (30 natural-language queries, each tied to one card, `verified: false` in eval/queries_manual_review.jsonl, reported UNVERIFIED until flipped). Metrics: Hit@5, MRR@10, nDCG@10, p50/p95 latency; all four retrievers × both chunkings; short error analysis; state the lexical-overlap bias.
-- Status*: code and tests done; full evaluation not completed*, so no retrieval metrics exist yet*.
+- Status: evaluation done (SILVER Hit@5 0.667 BM25 / 0.600 dense / 0.783 hybrid / 0.867 hybrid+rerank, chunking A); manual set unverified*.
 Future*: human verification of the 30 queries; organic query logs; learned sparse retrieval or ColBERT-style late interaction; query rewriting; embedding fine-tuning on marketplace listings; freshness/incremental indexing; ranking by price/quality signals.
 
 ## Component C: buyer agent with code-enforced guardrails
@@ -67,4 +67,4 @@ Offline pytest suite (64 tests): generator determinism, feature extraction, risk
 README with mermaid architecture, setup, how to run every eval, results summary, Limitations. docs/RESULTS.md with real numbers only. Final report: files, commands, results table, unfinished items, resume-ready facts using only measured numbers (each with the proving file).
 
 ## Measured so far
-Classifier macro-F1 (selected logistic regression): 0.998 in-dist, 0.996 unseen headers, 0.996 header-less, 0.806 unseen locale (GOVT_ID F1 0.0 on unseen locale formats). Regex baseline 0.686, header-keyword 0.538, Presidio 0.610 (in-dist). Mock-agent harness: 58/62 → 4/62 attacks, benign 25/30 → 29/30. Everything else* is pending.
+Classifier macro-F1 (selected logistic regression): 0.998 in-dist, 0.996 unseen headers, 0.996 header-less, 0.806 unseen locale (GOVT_ID F1 0.0 on unseen locale formats). Regex baseline 0.686, header-keyword 0.538, Presidio 0.610 (in-dist). Mock-agent harness: 58/62 → 4/62 attacks, benign 25/30 → 29/30. Retrieval SILVER Hit@5 as above. Real-model agent results* and Docker* are pending.
